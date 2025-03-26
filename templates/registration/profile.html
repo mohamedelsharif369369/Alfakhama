@@ -1,0 +1,24 @@
+{% extends 'base_generic.html' %}
+
+{% block content %}
+<br><br>
+<div class="container my-5">
+<h2>المستخدم : <h3>{{ profile.user.username }}</h3></h2>
+<br>
+<br>
+<h4>البريد الالكترونى : <h3>{{ profile.user.email }}</h3></h4>
+<br>
+<br>
+<h4>  الهاتف : <h3>{{ profile.phone_number }}</h3></h4>
+<br>
+<br>
+<h4> العنوان  : <h3>{{ profile.address }}</h3></h4>
+<br>
+<br>
+<a href="{% url 'accounts:profileEdit' %}">تعديل الملف الشخصى </a>
+<br><br>
+<a href="{% url 'accounts:loggedOut' %}">خروج</a>
+<br><br>
+<a href="{% url 'home' %}">Fakhama</a>
+</div>
+{% endblock content %}

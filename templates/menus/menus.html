@@ -1,0 +1,1235 @@
+
+<!DOCTYPE html>
+<html class="avada-html-layout-wide avada-html-header-position-top avada-is-100-percent-template avada-header-color-not-opaque avada-html-has-bg-image" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head><script type="text/javascript">window.NREUM||(NREUM={});NREUM.init={privacy:{cookies_enabled:true},ajax:{deny_list:["*"]}};;NREUM.loader_config={accountID:"815479",trustKey:"815479",agentID:"252387427",licenseKey:"bf220c09e2",applicationID:"252387427"};;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"bf220c09e2",applicationID:"252387427",sa:1};(()=>{var e,t,r={8122:(e,t,r)=>{"use strict";r.d(t,{a:()=>i});var n=r(944);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.R)(3);if(!t||"object"!=typeof t)return(0,n.R)(4);const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),o=0===Object.keys(r).length?e:r;for(let a in o)if(void 0!==e[a])try{if(null===e[a]){r[a]=null;continue}Array.isArray(e[a])&&Array.isArray(t[a])?r[a]=Array.from(new Set([...e[a],...t[a]])):"object"==typeof e[a]&&"object"==typeof t[a]?r[a]=i(e[a],t[a]):r[a]=e[a]}catch(e){(0,n.R)(1,e)}return r}catch(e){(0,n.R)(2,e)}}},2555:(e,t,r)=>{"use strict";r.d(t,{Vp:()=>c,fn:()=>s,x1:()=>d});var n=r(384),i=r(8122);const o={beacon:n.NT.beacon,errorBeacon:n.NT.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function s(e){try{const t=c(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}function c(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!a[e])throw new Error("Info for ".concat(e," was never set"));return a[e]}function d(e,t){if(!e)throw new Error("All info objects require an agent identifier!");a[e]=(0,i.a)(t,o);const r=(0,n.nY)(e);r&&(r.info=a[e])}},9417:(e,t,r)=>{"use strict";r.d(t,{D0:()=>h,gD:()=>p,xN:()=>g});var n=r(993);const i=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var o=r(2614),a=r(944),s=r(384),c=r(8122);const d="[data-nr-mask]",u=()=>{const e={mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},feature_flags:[],generic_events:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},harvest:{tooManyRequestsDelay:60},jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},logging:{enabled:!0,harvestTimeSeconds:10,autoStart:!0,level:n.p_.INFO},metrics:{enabled:!0,autoStart:!0},obfuscate:void 0,page_action:{enabled:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},performance:{capture_marks:!1,capture_measures:!1},privacy:{cookies_enabled:!0},proxy:{assets:void 0,beacon:void 0},session:{expiresMs:o.wk,inactiveMs:o.BB},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,fix_stylesheets:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){i(t)?e.mask_selector="".concat(t,",").concat(d):""===t||null===t?e.mask_selector=d:(0,a.R)(5,t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){i(t)?e.block_selector+=",".concat(t):""!==t&&(0,a.R)(6,t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,a.R)(7,t)}},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},soft_navigations:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},ssl:void 0,user_actions:{enabled:!0}}},l={},f="All configuration objects require an agent identifier!";function h(e){if(!e)throw new Error(f);if(!l[e])throw new Error("Configuration for ".concat(e," was never set"));return l[e]}function g(e,t){if(!e)throw new Error(f);l[e]=(0,c.a)(t,u());const r=(0,s.nY)(e);r&&(r.init=l[e])}function p(e,t){if(!e)throw new Error(f);var r=h(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}},5603:(e,t,r)=>{"use strict";r.d(t,{a:()=>c,o:()=>s});var n=r(384),i=r(8122);const o={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},a={};function s(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!a[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return a[e]}function c(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");a[e]=(0,i.a)(t,o);const r=(0,n.nY)(e);r&&(r.loader_config=a[e])}},3371:(e,t,r)=>{"use strict";r.d(t,{V:()=>f,f:()=>l});var n=r(8122),i=r(384),o=r(6154),a=r(9324);let s=0;const c={buildEnv:a.F3,distMethod:a.Xs,version:a.xv,originTime:o.WN},d={customTransaction:void 0,disabled:!1,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,onerror:void 0,ptid:void 0,releaseIds:{},appMetadata:{},session:void 0,denyList:void 0,timeKeeper:void 0,obfuscator:void 0},u={};function l(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!u[e])throw new Error("Runtime for ".concat(e," was never set"));return u[e]}function f(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");u[e]={...(0,n.a)(t,d),...c},Object.hasOwnProperty.call(u[e],"harvestCount")||Object.defineProperty(u[e],"harvestCount",{get:()=>++s});const r=(0,i.nY)(e);r&&(r.runtime=u[e])}},9324:(e,t,r)=>{"use strict";r.d(t,{F3:()=>i,Xs:()=>o,Yq:()=>a,xv:()=>n});const n="1.273.0",i="PROD",o="CDN",a="2.0.0-alpha.12"},6154:(e,t,r)=>{"use strict";r.d(t,{OF:()=>d,RI:()=>i,WN:()=>f,bv:()=>o,gm:()=>a,lR:()=>l,m:()=>c,mw:()=>s,sb:()=>u});var n=r(1863);const i="undefined"!=typeof window&&!!window.document,o="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),a=i?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),s=Boolean("hidden"===a?.document?.visibilityState),c=""+a?.location,d=/iPad|iPhone|iPod/.test(a.navigator?.userAgent),u=d&&"undefined"==typeof SharedWorker,l=(()=>{const e=a.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);return Array.isArray(e)&&e.length>=2?+e[1]:0})(),f=Date.now()-(0,n.t)()},7295:(e,t,r)=>{"use strict";r.d(t,{Xv:()=>a,gX:()=>i,iW:()=>o});var n=[];function i(e){if(!e||o(e))return!1;if(0===n.length)return!0;for(var t=0;t<n.length;t++){var r=n[t];if("*"===r.hostname)return!1;if(s(r.hostname,e.hostname)&&c(r.pathname,e.pathname))return!1}return!0}function o(e){return void 0===e.hostname}function a(e){if(n=[],e&&e.length)for(var t=0;t<e.length;t++){let r=e[t];if(!r)continue;0===r.indexOf("http://")?r=r.substring(7):0===r.indexOf("https://")&&(r=r.substring(8));const i=r.indexOf("/");let o,a;i>0?(o=r.substring(0,i),a=r.substring(i)):(o=r,a="");let[s]=o.split(":");n.push({hostname:s,pathname:a})}}function s(e,t){return!(e.length>t.length)&&t.indexOf(e)===t.length-e.length}function c(e,t){return 0===e.indexOf("/")&&(e=e.substring(1)),0===t.indexOf("/")&&(t=t.substring(1)),""===e||e===t}},1687:(e,t,r)=>{"use strict";r.d(t,{Ak:()=>c,Ze:()=>l,x3:()=>d});var n=r(7836),i=r(3606),o=r(860),a=r(2646);const s={};function c(e,t){const r={staged:!1,priority:o.P3[t]||0};u(e),s[e].get(t)||s[e].set(t,r)}function d(e,t){e&&s[e]&&(s[e].get(t)&&s[e].delete(t),h(e,t,!1),s[e].size&&f(e))}function u(e){if(!e)throw new Error("agentIdentifier required");s[e]||(s[e]=new Map)}function l(e="",t="feature",r=!1){if(u(e),!e||!s[e].get(t)||r)return h(e,t);s[e].get(t).staged=!0,f(e)}function f(e){const t=Array.from(s[e]);t.every((([e,t])=>t.staged))&&(t.sort(((e,t)=>e[1].priority-t[1].priority)),t.forEach((([t])=>{s[e].delete(t),h(e,t)})))}function h(e,t,r=!0){const o=e?n.ee.get(e):n.ee,s=i.i.handlers;if(!o.aborted&&o.backlog&&s){if(r){const e=o.backlog[t],r=s[t];if(r){for(let t=0;e&&t<e.length;++t)g(e[t],r);Object.entries(r).forEach((([e,t])=>{Object.values(t||{}).forEach((t=>{t[0]?.on&&t[0]?.context()instanceof a.y&&t[0].on(e,t[1])}))}))}}o.isolatedBacklog||delete s[t],o.backlog[t]=null,o.emit("drain-"+t,[])}}function g(e,t){var r=e[1];Object.values(t[r]||{}).forEach((t=>{var r=e[0];if(t[0]===r){var n=t[1],i=e[3],o=e[2];n.apply(i,o)}}))}},7836:(e,t,r)=>{"use strict";r.d(t,{P:()=>c,ee:()=>d});var n=r(384),i=r(8990),o=r(3371),a=r(2646),s=r(5607);const c="nr@context:".concat(s.W),d=function e(t,r){var n={},s={},u={},l=!1;try{l=16===r.length&&(0,o.f)(r).isolatedBacklog}catch(e){}var f={on:g,addEventListener:g,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,o){!1!==o&&(o=!0);if(d.aborted&&!i)return;t&&o&&t.emit(e,r,n);for(var a=h(n),c=p(e),u=c.length,l=0;l<u;l++)c[l].apply(a,r);var g=v()[s[e]];g&&g.push([f,e,r,a]);return a},get:m,listeners:p,context:h,buffer:function(e,t){const r=v();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach((([e,n])=>{s[n]=t,t in r||(r[t]=[])}))},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach((e=>{delete f.backlog[e]}))},isBuffering:function(e){return!!v()[s[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function h(e){return e&&e instanceof a.y?e:e?(0,i.I)(e,c,(()=>new a.y(c))):new a.y(c)}function g(e,t){n[e]=p(e).concat(t)}function p(e){return n[e]||[]}function m(t){return u[t]=u[t]||e(f,t)}function v(){return f.backlog}}(void 0,"globalEE"),u=(0,n.Zm)();u.ee||(u.ee=d)},2646:(e,t,r)=>{"use strict";r.d(t,{y:()=>n});class n{constructor(e){this.contextId=e}}},9908:(e,t,r)=>{"use strict";r.d(t,{d:()=>n,p:()=>i});var n=r(7836).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},3606:(e,t,r)=>{"use strict";r.d(t,{i:()=>o});var n=r(9908);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.d,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.d);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},3878:(e,t,r)=>{"use strict";function n(e,t){return{capture:e,passive:!1,signal:t}}function i(e,t,r=!1,i){window.addEventListener(e,t,n(r,i))}function o(e,t,r=!1,i){document.addEventListener(e,t,n(r,i))}r.d(t,{DD:()=>o,jT:()=>n,sp:()=>i})},5607:(e,t,r)=>{"use strict";r.d(t,{W:()=>n});const n=(0,r(9566).bz)()},9566:(e,t,r)=>{"use strict";r.d(t,{LA:()=>s,ZF:()=>c,bz:()=>a,el:()=>d});var n=r(6154);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n.gm?.crypto||n.gm?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),i.split("").map((e=>"x"===e?o(t,r++).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=n.gm?.crypto||n.gm?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const a=[];for(var s=0;s<e;s++)a.push(o(r,i++).toString(16));return a.join("")}function c(){return s(16)}function d(){return s(32)}},2614:(e,t,r)=>{"use strict";r.d(t,{BB:()=>a,H3:()=>n,g:()=>d,iL:()=>c,tS:()=>s,uh:()=>i,wk:()=>o});const n="NRBA",i="SESSION",o=144e5,a=18e5,s={STARTED:"session-started",PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},c={SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},d={OFF:0,FULL:1,ERROR:2}},1863:(e,t,r)=>{"use strict";function n(){return Math.floor(performance.now())}r.d(t,{t:()=>n})},7485:(e,t,r)=>{"use strict";r.d(t,{D:()=>i});var n=r(6154);function i(e){if(0===(e||"").indexOf("data:"))return{protocol:"data"};try{const t=new URL(e,location.href),r={port:t.port,hostname:t.hostname,pathname:t.pathname,search:t.search,protocol:t.protocol.slice(0,t.protocol.indexOf(":")),sameOrigin:t.protocol===n.gm?.location?.protocol&&t.host===n.gm?.location?.host};return r.port&&""!==r.port||("http:"===t.protocol&&(r.port="80"),"https:"===t.protocol&&(r.port="443")),r.pathname&&""!==r.pathname?r.pathname.startsWith("/")||(r.pathname="/".concat(r.pathname)):r.pathname="/",r}catch(e){return{}}}},944:(e,t,r)=>{"use strict";function n(e,t){"function"==typeof console.debug&&console.debug("New Relic Warning: https://github.com/newrelic/newrelic-browser-agent/blob/main/docs/warning-codes.md#".concat(e),t)}r.d(t,{R:()=>n})},5284:(e,t,r)=>{"use strict";r.d(t,{t:()=>c,B:()=>s});var n=r(7836),i=r(6154);const o="newrelic";const a=new Set,s={};function c(e,t){const r=n.ee.get(t);s[t]??={},e&&"object"==typeof e&&(a.has(t)||(r.emit("rumresp",[e]),s[t]=e,a.add(t),function(e={}){try{i.gm.dispatchEvent(new CustomEvent(o,{detail:e}))}catch(e){}}({loaded:!0})))}},8990:(e,t,r)=>{"use strict";r.d(t,{I:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},6389:(e,t,r)=>{"use strict";function n(e,t=500,r={}){const n=r?.leading||!1;let i;return(...r)=>{n&&void 0===i&&(e.apply(this,r),i=setTimeout((()=>{i=clearTimeout(i)}),t)),n||(clearTimeout(i),i=setTimeout((()=>{e.apply(this,r)}),t))}}function i(e){let t=!1;return(...r)=>{t||(t=!0,e.apply(this,r))}}r.d(t,{J:()=>i,s:()=>n})},3304:(e,t,r)=>{"use strict";r.d(t,{A:()=>o});var n=r(7836);const i=()=>{const e=new WeakSet;return(t,r)=>{if("object"==typeof r&&null!==r){if(e.has(r))return;e.add(r)}return r}};function o(e){try{return JSON.stringify(e,i())??""}catch(e){try{n.ee.emit("internal-error",[e])}catch(e){}return""}}},5289:(e,t,r)=>{"use strict";r.d(t,{GG:()=>o,sB:()=>a});var n=r(3878);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,n.sp)("load",e,t)}function a(e){if(i())return e();(0,n.DD)("DOMContentLoaded",e)}},384:(e,t,r)=>{"use strict";r.d(t,{NT:()=>o,US:()=>u,Zm:()=>a,bQ:()=>c,dV:()=>s,nY:()=>d,pV:()=>l});var n=r(6154),i=r(1863);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return n.gm.NREUM||(n.gm.NREUM={}),void 0===n.gm.newrelic&&(n.gm.newrelic=n.gm.NREUM),n.gm.NREUM}function s(){let e=a();return e.o||(e.o={ST:n.gm.setTimeout,SI:n.gm.setImmediate,CT:n.gm.clearTimeout,XHR:n.gm.XMLHttpRequest,REQ:n.gm.Request,EV:n.gm.Event,PR:n.gm.Promise,MO:n.gm.MutationObserver,FETCH:n.gm.fetch,WS:n.gm.WebSocket}),e}function c(e,t){let r=a();r.initializedAgents??={},t.initializedAt={ms:(0,i.t)(),date:new Date},r.initializedAgents[e]=t}function d(e){let t=a();return t.initializedAgents?.[e]}function u(e,t){a()[e]=t}function l(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},2843:(e,t,r)=>{"use strict";r.d(t,{u:()=>i});var n=r(3878);function i(e,t=!1,r,i){(0,n.DD)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),r,i)}},8139:(e,t,r)=>{"use strict";r.d(t,{u:()=>f});var n=r(7836),i=r(3434),o=r(8990),a=r(6154);const s={},c=a.gm.XMLHttpRequest,d="addEventListener",u="removeEventListener",l="nr@wrapped:".concat(n.P);function f(e){var t=function(e){return(e||n.ee).get("events")}(e);if(s[t.debugId]++)return t;s[t.debugId]=1;var r=(0,i.YM)(t,!0);function f(e){r.inPlace(e,[d,u],"-",g)}function g(e,t){return e[1]}return"getPrototypeOf"in Object&&(a.RI&&h(document,f),h(a.gm,f),h(c.prototype,f)),t.on(d+"-start",(function(e,t){var n=e[1];if(null!==n&&("function"==typeof n||"object"==typeof n)){var i=(0,o.I)(n,l,(function(){var e={object:function(){if("function"!=typeof n.handleEvent)return;return n.handleEvent.apply(n,arguments)},function:n}[typeof n];return e?r(e,"fn-",null,e.name||"anonymous"):n}));this.wrapped=e[1]=i}})),t.on(u+"-start",(function(e){e[1]=this.wrapped||e[1]})),t}function h(e,t,...r){let n=e;for(;"object"==typeof n&&!Object.prototype.hasOwnProperty.call(n,d);)n=Object.getPrototypeOf(n);n&&t(n,...r)}},3434:(e,t,r)=>{"use strict";r.d(t,{YM:()=>c});var n=r(7836),i=r(5607);const o="nr@original:".concat(i.W);var a=Object.prototype.hasOwnProperty,s=!1;function c(e,t){return e||(e=n.ee),r.inPlace=function(e,t,n,i,o){n||(n="");const a="-"===n.charAt(0);for(let s=0;s<t.length;s++){const c=t[s],d=e[c];u(d)||(e[c]=r(d,a?c+n:n,i,c,o))}},r.flag=o,r;function r(t,r,n,s,c){return u(t)?t:(r||(r=""),nrWrapper[o]=t,function(e,t,r){if(Object.defineProperty&&Object.keys)try{return Object.keys(e).forEach((function(r){Object.defineProperty(t,r,{get:function(){return e[r]},set:function(t){return e[r]=t,t}})})),t}catch(e){d([e],r)}for(var n in e)a.call(e,n)&&(t[n]=e[n])}(t,nrWrapper,e),nrWrapper);function nrWrapper(){var o,a,u,l;try{a=this,o=[...arguments],u="function"==typeof n?n(o,a):n||{}}catch(t){d([t,"",[o,a,s],u],e)}i(r+"start",[o,a,s],u,c);try{return l=t.apply(a,o)}catch(e){throw i(r+"err",[o,a,e],u,c),e}finally{i(r+"end",[o,a,l],u,c)}}}function i(r,n,i,o){if(!s||t){var a=s;s=!0;try{e.emit(r,n,i,t,o)}catch(t){d([t,r,n,i],e)}s=a}}}function d(e,t){t||(t=n.ee);try{t.emit("internal-error",e)}catch(e){}}function u(e){return!(e&&"function"==typeof e&&e.apply&&!e[o])}},9300:(e,t,r)=>{"use strict";r.d(t,{T:()=>n});const n=r(860).K7.ajax},3333:(e,t,r)=>{"use strict";r.d(t,{TZ:()=>n,Zp:()=>i,mq:()=>s,nf:()=>a,qN:()=>o});const n=r(860).K7.genericEvents,i=["auxclick","click","copy","keydown","paste","scrollend"],o=["focus","blur"],a=4,s=1e3},6774:(e,t,r)=>{"use strict";r.d(t,{T:()=>n});const n=r(860).K7.jserrors},993:(e,t,r)=>{"use strict";r.d(t,{ET:()=>o,TZ:()=>a,p_:()=>i});var n=r(860);const i={ERROR:"ERROR",WARN:"WARN",INFO:"INFO",DEBUG:"DEBUG",TRACE:"TRACE"},o="log",a=n.K7.logging},3785:(e,t,r)=>{"use strict";r.d(t,{R:()=>c,b:()=>d});var n=r(9908),i=r(1863),o=r(860),a=r(3969),s=r(993);function c(e,t,r={},c=s.p_.INFO){(0,n.p)(a.xV,["API/logging/".concat(c.toLowerCase(),"/called")],void 0,o.K7.metrics,e),(0,n.p)(s.ET,[(0,i.t)(),t,r,c],void 0,o.K7.logging,e)}function d(e){return"string"==typeof e&&Object.values(s.p_).some((t=>t===e.toUpperCase().trim()))}},3969:(e,t,r)=>{"use strict";r.d(t,{TZ:()=>n,XG:()=>s,rs:()=>i,xV:()=>a,z_:()=>o});const n=r(860).K7.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},6630:(e,t,r)=>{"use strict";r.d(t,{T:()=>n});const n=r(860).K7.pageViewEvent},782:(e,t,r)=>{"use strict";r.d(t,{T:()=>n});const n=r(860).K7.pageViewTiming},6344:(e,t,r)=>{"use strict";r.d(t,{BB:()=>u,G4:()=>o,Qb:()=>l,TZ:()=>i,Ug:()=>a,_s:()=>s,bc:()=>d,yP:()=>c});var n=r(2614);const i=r(860).K7.sessionReplay,o={RECORD:"recordReplay",PAUSE:"pauseReplay",REPLAY_RUNNING:"replayRunning",ERROR_DURING_REPLAY:"errorDuringReplay"},a=.12,s={DomContentLoaded:0,Load:1,FullSnapshot:2,IncrementalSnapshot:3,Meta:4,Custom:5},c={[n.g.ERROR]:15e3,[n.g.FULL]:3e5,[n.g.OFF]:0},d={RESET:{message:"Session was reset",sm:"Reset"},IMPORT:{message:"Recorder failed to import",sm:"Import"},TOO_MANY:{message:"429: Too Many Requests",sm:"Too-Many"},TOO_BIG:{message:"Payload was too large",sm:"Too-Big"},CROSS_TAB:{message:"Session Entity was set to OFF on another tab",sm:"Cross-Tab"},ENTITLEMENTS:{message:"Session Replay is not allowed and will not be started",sm:"Entitlement"}},u=5e3,l={API:"api"}},5270:(e,t,r)=>{"use strict";r.d(t,{Aw:()=>c,CT:()=>d,SR:()=>s});var n=r(384),i=r(9417),o=r(7767),a=r(6154);function s(e){return!!(0,n.dV)().o.MO&&(0,o.V)(e)&&!0===(0,i.gD)(e,"session_trace.enabled")}function c(e){return!0===(0,i.gD)(e,"session_replay.preload")&&s(e)}function d(e,t){const r=t.correctAbsoluteTimestamp(e);return{originalTimestamp:e,correctedTimestamp:r,timestampDiff:e-r,originTime:a.WN,correctedOriginTime:t.correctedOriginTime,originTimeDiff:Math.floor(a.WN-t.correctedOriginTime)}}},3738:(e,t,r)=>{"use strict";r.d(t,{He:()=>i,Kp:()=>s,Lc:()=>d,Rz:()=>u,TZ:()=>n,bD:()=>o,d3:()=>a,jx:()=>l,uP:()=>c});const n=r(860).K7.sessionTrace,i="bstResource",o="resource",a="-start",s="-end",c="fn"+a,d="fn"+s,u="pushState",l=1e3},4234:(e,t,r)=>{"use strict";r.d(t,{W:()=>o});var n=r(7836),i=r(1687);class o{constructor(e,t){this.agentIdentifier=e,this.ee=n.ee.get(e),this.featureName=t,this.blocked=!1}deregisterDrain(){(0,i.x3)(this.agentIdentifier,this.featureName)}}},7767:(e,t,r)=>{"use strict";r.d(t,{V:()=>o});var n=r(9417),i=r(6154);const o=e=>i.RI&&!0===(0,n.gD)(e,"privacy.cookies_enabled")},425:(e,t,r)=>{"use strict";r.d(t,{j:()=>P});var n=r(860),i=r(2555),o=r(3371),a=r(9908),s=r(7836),c=r(1687),d=r(5289),u=r(6154),l=r(944),f=r(3969),h=r(384),g=r(6344);const p=["setErrorHandler","finished","addToTrace","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start",g.G4.RECORD,g.G4.PAUSE,"log","wrapLogger"],m=["setErrorHandler","finished","addToTrace","addRelease"];var v=r(1863),b=r(2614),y=r(993),R=r(3785),x=r(2646),w=r(3434);function T(e,t,r,n){if("object"!=typeof t||!t||"string"!=typeof r||!r||"function"!=typeof t[r])return(0,l.R)(29);const i=function(e){return(e||s.ee).get("logger")}(e),o=(0,w.YM)(i),a=new x.y(s.P);return a.level=n.level,a.customAttributes=n.customAttributes,o.inPlace(t,[r],"wrap-logger-",a),i}function A(){const e=(0,h.pV)();p.forEach((t=>{e[t]=(...r)=>function(t,...r){let n=[];return Object.values(e.initializedAgents).forEach((e=>{e&&e.api?e.exposed&&e.api[t]&&n.push(e.api[t](...r)):(0,l.R)(38,t)})),n.length>1?n:n[0]}(t,...r)}))}const E={};var S=r(9417),_=r(5603),O=r(5284);const N=e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e};let I=!1;function P(e,t={},p,x){let{init:w,info:P,loader_config:j,runtime:C={},exposed:k=!0}=t;C.loaderType=p;const H=(0,h.pV)();P||(w=H.init,P=H.info,j=H.loader_config),(0,S.xN)(e.agentIdentifier,w||{}),(0,_.a)(e.agentIdentifier,j||{}),P.jsAttributes??={},u.bv&&(P.jsAttributes.isWorker=!0),(0,i.x1)(e.agentIdentifier,P);const D=(0,S.D0)(e.agentIdentifier),L=[P.beacon,P.errorBeacon];I||(D.proxy.assets&&(N(D.proxy.assets),L.push(D.proxy.assets)),D.proxy.beacon&&L.push(D.proxy.beacon),A(),(0,h.US)("activatedFeatures",O.B),e.runSoftNavOverSpa&&=!0===D.soft_navigations.enabled&&D.feature_flags.includes("soft_nav")),C.denyList=[...D.ajax.deny_list||[],...D.ajax.block_internal?L:[]],C.ptid=e.agentIdentifier,(0,o.V)(e.agentIdentifier,C),e.ee=s.ee.get(e.agentIdentifier),void 0===e.api&&(e.api=function(e,t,h=!1){t||(0,c.Ak)(e,"api");const p={};var x=s.ee.get(e),w=x.get("tracer");E[e]=b.g.OFF,x.on(g.G4.REPLAY_RUNNING,(t=>{E[e]=t}));var A="api-",S=A+"ixn-";function _(t,r,n,o){const a=(0,i.Vp)(e);return null===r?delete a.jsAttributes[t]:(0,i.x1)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:r}}),I(A,n,!0,o||null===r?"session":void 0)(t,r)}function O(){}p.log=function(e,{customAttributes:t={},level:r=y.p_.INFO}={}){(0,a.p)(f.xV,["API/log/called"],void 0,n.K7.metrics,x),(0,R.R)(x,e,t,r)},p.wrapLogger=(e,t,{customAttributes:r={},level:i=y.p_.INFO}={})=>{(0,a.p)(f.xV,["API/wrapLogger/called"],void 0,n.K7.metrics,x),T(x,e,t,{customAttributes:r,level:i})},m.forEach((e=>{p[e]=I(A,e,!0,"api")})),p.addPageAction=I(A,"addPageAction",!0,n.K7.genericEvents),p.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,o.f)(e).customTransaction=(r||"http://custom.transaction")+t,I(A,"setPageViewName",!0)()},p.setCustomAttribute=function(e,t,r=!1){if("string"==typeof e){if(["string","number","boolean"].includes(typeof t)||null===t)return _(e,t,"setCustomAttribute",r);(0,l.R)(40,typeof t)}else(0,l.R)(39,typeof e)},p.setUserId=function(e){if("string"==typeof e||null===e)return _("enduser.id",e,"setUserId",!0);(0,l.R)(41,typeof e)},p.setApplicationVersion=function(e){if("string"==typeof e||null===e)return _("application.version",e,"setApplicationVersion",!1);(0,l.R)(42,typeof e)},p.start=()=>{try{(0,a.p)(f.xV,["API/start/called"],void 0,n.K7.metrics,x),x.emit("manual-start-all")}catch(e){(0,l.R)(23,e)}},p[g.G4.RECORD]=function(){(0,a.p)(f.xV,["API/recordReplay/called"],void 0,n.K7.metrics,x),(0,a.p)(g.G4.RECORD,[],void 0,n.K7.sessionReplay,x)},p[g.G4.PAUSE]=function(){(0,a.p)(f.xV,["API/pauseReplay/called"],void 0,n.K7.metrics,x),(0,a.p)(g.G4.PAUSE,[],void 0,n.K7.sessionReplay,x)},p.interaction=function(e){return(new O).get("object"==typeof e?e:{})};const N=O.prototype={createTracer:function(e,t){var r={},i=this,o="function"==typeof t;return(0,a.p)(f.xV,["API/createTracer/called"],void 0,n.K7.metrics,x),h||(0,a.p)(S+"tracer",[(0,v.t)(),e,r],i,n.K7.spa,x),function(){if(w.emit((o?"":"no-")+"fn-start",[(0,v.t)(),i,o],r),o)try{return t.apply(this,arguments)}catch(e){const t="string"==typeof e?new Error(e):e;throw w.emit("fn-err",[arguments,this,t],r),t}finally{w.emit("fn-end",[(0,v.t)()],r)}}}};function I(e,t,r,i){return function(){return(0,a.p)(f.xV,["API/"+t+"/called"],void 0,n.K7.metrics,x),i&&(0,a.p)(e+t,[(0,v.t)(),...arguments],r?null:this,i,x),r?void 0:this}}function P(){r.e(891).then(r.bind(r,8778)).then((({setAPI:t})=>{t(e),(0,c.Ze)(e,"api")})).catch((e=>{(0,l.R)(27,e),x.abort()}))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{N[e]=I(S,e,void 0,h?n.K7.softNav:n.K7.spa)})),p.setCurrentRouteName=h?I(S,"routeName",void 0,n.K7.softNav):I(A,"routeName",!0,n.K7.spa),p.noticeError=function(t,r){"string"==typeof t&&(t=new Error(t)),(0,a.p)(f.xV,["API/noticeError/called"],void 0,n.K7.metrics,x),(0,a.p)("err",[t,(0,v.t)(),!1,r,!!E[e]],void 0,n.K7.jserrors,x)},u.RI?(0,d.GG)((()=>P()),!0):P(),p}(e.agentIdentifier,x,e.runSoftNavOverSpa)),void 0===e.exposed&&(e.exposed=k),I=!0}},8374:(e,t,r)=>{r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},860:(e,t,r)=>{"use strict";r.d(t,{$J:()=>o,K7:()=>n,P3:()=>i});const n={ajax:"ajax",genericEvents:"generic_events",jserrors:"jserrors",logging:"logging",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations",spa:"spa"},i={[n.pageViewEvent]:1,[n.pageViewTiming]:2,[n.metrics]:3,[n.jserrors]:4,[n.spa]:5,[n.ajax]:6,[n.sessionTrace]:7,[n.softNav]:8,[n.sessionReplay]:9,[n.logging]:10,[n.genericEvents]:11},o={[n.pageViewTiming]:"events",[n.ajax]:"events",[n.spa]:"events",[n.softNav]:"events",[n.metrics]:"jserrors",[n.jserrors]:"jserrors",[n.sessionTrace]:"browser/blobs",[n.sessionReplay]:"browser/blobs",[n.logging]:"browser/logs",[n.genericEvents]:"ins"}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var o=n[e]={exports:{}};return r[e](o,o.exports,i),o.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>({95:"nr-full-compressor",222:"nr-full-recorder",891:"nr-full"}[e]+"-1.273.0.min.js"),i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.273.0.PROD:",i.l=(r,n,o,a)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==o)for(var d=document.getElementsByTagName("script"),u=0;u<d.length;u++){var l=d[u];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+o){s=l;break}}if(!s){c=!0;var f={891:"sha512-XUWwdreJqsqxh5S/aAOxUu1114NfRQYSryaHhqO5M6IL3XVq+3ffjf9PY2V6qmRrxNWNAh4sImRAD4pAfdKfpA==",222:"sha512-i7TQ77wmnVgAdCJZiR8bB+0BTLw/wvSUmfVoJFBCkBScfR1kOKYGx8gulU1X4V6dfHSK3mKM4hmvC+ns1Le77w==",95:"sha512-biCvF3roDZ4TGZuO5NRODqVvlgck8Vt8vffliYcIDI01NHa4LICLicmbuqsA9JLeFokT3Ze2/eARtEZndZ8irw=="};(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=r,0!==s.src.indexOf(window.location.origin+"/")&&(s.crossOrigin="anonymous"),f[a]&&(s.integrity=f[a])}e[r]=[n];var h=(t,n)=>{s.onerror=s.onload=null,clearTimeout(g);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},g=setTimeout(h.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=h.bind(null,s.onerror),s.onload=h.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={959:0,85:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var o=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var o=r&&("load"===r.type?"missing":r.type),a=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,o,[a,s,c]=r,d=0;if(a.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);d<a.length;d++)o=a[d],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},r=self["webpackChunk:NRBA-1.273.0.PROD"]=self["webpackChunk:NRBA-1.273.0.PROD"]||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})(),(()=>{"use strict";i(8374);var e=i(944),t=i(6344),r=i(9566);class n{agentIdentifier;constructor(e=(0,r.LA)(16)){this.agentIdentifier=e}#e(t,...r){if("function"==typeof this.api?.[t])return this.api[t](...r);(0,e.R)(35,t)}addPageAction(e,t){return this.#e("addPageAction",e,t)}setPageViewName(e,t){return this.#e("setPageViewName",e,t)}setCustomAttribute(e,t,r){return this.#e("setCustomAttribute",e,t,r)}noticeError(e,t){return this.#e("noticeError",e,t)}setUserId(e){return this.#e("setUserId",e)}setApplicationVersion(e){return this.#e("setApplicationVersion",e)}setErrorHandler(e){return this.#e("setErrorHandler",e)}finished(e){return this.#e("finished",e)}addRelease(e,t){return this.#e("addRelease",e,t)}start(e){return this.#e("start",e)}recordReplay(){return this.#e(t.G4.RECORD)}pauseReplay(){return this.#e(t.G4.PAUSE)}addToTrace(e){return this.#e("addToTrace",e)}setCurrentRouteName(e){return this.#e("setCurrentRouteName",e)}interaction(){return this.#e("interaction")}log(e,t){return this.#e("log",e,t)}wrapLogger(e,t,r){return this.#e("wrapLogger",e,t,r)}}var o=i(860),a=i(9417);const s=Object.values(o.K7);function c(e){const t={};return s.forEach((r=>{t[r]=function(e,t){return!0===(0,a.gD)(t,"".concat(e,".enabled"))}(r,e)})),t}var d=i(425);var u=i(1687),l=i(4234),f=i(5289),h=i(6154),g=i(5270),p=i(7767),m=i(6389);class v extends l.W{constructor(e,t,r=!0){super(e.agentIdentifier,t),this.auto=r,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===e.init[this.featureName].autoStart&&(this.auto=!1),this.auto?(0,u.Ak)(e.agentIdentifier,t):this.ee.on("manual-start-all",(0,m.J)((()=>{(0,u.Ak)(e.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator(e)})))}importAggregator(t,r={}){if(this.featAggregate||!this.auto)return;let n;this.onAggregateImported=new Promise((e=>{n=e}));const a=async()=>{let a;try{if((0,p.V)(this.agentIdentifier)){const{setupAgentSession:e}=await i.e(891).then(i.bind(i,6526));a=e(this.agentIdentifier)}}catch(t){(0,e.R)(20,t),this.ee.emit("internal-error",[t]),this.featureName===o.K7.sessionReplay&&this.abortHandler?.()}try{if(t.sharedAggregator)await t.sharedAggregator;else{t.sharedAggregator=i.e(891).then(i.bind(i,9337));const{EventAggregator:e}=await t.sharedAggregator;t.sharedAggregator=new e}if(!this.#t(this.featureName,a))return(0,u.Ze)(this.agentIdentifier,this.featureName),void n(!1);const{lazyFeatureLoader:e}=await i.e(891).then(i.bind(i,6103)),{Aggregate:o}=await e(this.featureName,"aggregate");this.featAggregate=new o(t,r),n(!0)}catch(t){(0,e.R)(34,t),this.abortHandler?.(),(0,u.Ze)(this.agentIdentifier,this.featureName,!0),n(!1),this.ee&&this.ee.abort()}};h.RI?(0,f.GG)((()=>a()),!0):a()}#t(e,t){switch(e){case o.K7.sessionReplay:return(0,g.SR)(this.agentIdentifier)&&!!t;case o.K7.sessionTrace:return!!t;default:return!0}}}var b=i(6630);class y extends v{static featureName=b.T;constructor(e,t=!0){super(e,b.T,t),this.importAggregator(e)}}var R=i(384);var x=i(9908),w=i(2843),T=i(3878),A=i(782),E=i(1863);class S extends v{static featureName=A.T;constructor(e,t=!0){super(e,A.T,t),h.RI&&((0,w.u)((()=>(0,x.p)("docHidden",[(0,E.t)()],void 0,A.T,this.ee)),!0),(0,T.sp)("pagehide",(()=>(0,x.p)("winPagehide",[(0,E.t)()],void 0,A.T,this.ee))),this.importAggregator(e))}}var _=i(3969);class O extends v{static featureName=_.TZ;constructor(e,t=!0){super(e,_.TZ,t),this.importAggregator(e)}}var N=i(6774),I=i(3304);class P{constructor(e,t,r,n,i){this.name="UncaughtError",this.message="string"==typeof e?e:(0,I.A)(e),this.sourceURL=t,this.line=r,this.column=n,this.__newrelic=i}}function j(e){return H(e)?e:new P(void 0!==e?.message?e.message:e,e?.filename||e?.sourceURL,e?.lineno||e?.line,e?.colno||e?.col,e?.__newrelic)}function C(e){const t="Unhandled Promise Rejection";if(!e?.reason)return;if(H(e.reason))try{return e.reason.message=t+": "+e.reason.message,j(e.reason)}catch(t){return j(e.reason)}const r=j(e.reason);return r.message=t+": "+r?.message,r}function k(e){if(e.error instanceof SyntaxError&&!/:\d+$/.test(e.error.stack?.trim())){const t=new P(e.message,e.filename,e.lineno,e.colno,e.error.__newrelic);return t.name=SyntaxError.name,t}return H(e.error)?e.error:j(e)}function H(e){return e instanceof Error&&!!e.stack}class D extends v{static featureName=N.T;#r=!1;constructor(e,r=!0){super(e,N.T,r);try{this.removeOnAbort=new AbortController}catch(e){}this.ee.on("internal-error",(e=>{this.abortHandler&&(0,x.p)("ierr",[j(e),(0,E.t)(),!0,{},this.#r],void 0,this.featureName,this.ee)})),this.ee.on(t.G4.REPLAY_RUNNING,(e=>{this.#r=e})),h.gm.addEventListener("unhandledrejection",(e=>{this.abortHandler&&(0,x.p)("err",[C(e),(0,E.t)(),!1,{unhandledPromiseRejection:1},this.#r],void 0,this.featureName,this.ee)}),(0,T.jT)(!1,this.removeOnAbort?.signal)),h.gm.addEventListener("error",(e=>{this.abortHandler&&(0,x.p)("err",[k(e),(0,E.t)(),!1,{},this.#r],void 0,this.featureName,this.ee)}),(0,T.jT)(!1,this.removeOnAbort?.signal)),this.abortHandler=this.#n,this.importAggregator(e)}#n(){this.removeOnAbort?.abort(),this.abortHandler=void 0}}var L=i(8990);let K=1;const M="nr@id";function U(e){const t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===h.gm?0:(0,L.I)(e,M,(function(){return K++}))}function V(e){if("string"==typeof e&&e.length)return e.length;if("object"==typeof e){if("undefined"!=typeof ArrayBuffer&&e instanceof ArrayBuffer&&e.byteLength)return e.byteLength;if("undefined"!=typeof Blob&&e instanceof Blob&&e.size)return e.size;if(!("undefined"!=typeof FormData&&e instanceof FormData))try{return(0,I.A)(e).length}catch(e){return}}}var G=i(8139),F=i(7836),B=i(3434);const W={},z=["open","send"];function q(t){var r=t||F.ee;const n=function(e){return(e||F.ee).get("xhr")}(r);if(W[n.debugId]++)return n;W[n.debugId]=1,(0,G.u)(r);var i=(0,B.YM)(n),o=h.gm.XMLHttpRequest,a=h.gm.MutationObserver,s=h.gm.Promise,c=h.gm.setInterval,d="readystatechange",u=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],l=[],f=h.gm.XMLHttpRequest=function(t){const r=new o(t),a=n.context(r);try{n.emit("new-xhr",[r],a),r.addEventListener(d,(s=a,function(){var e=this;e.readyState>3&&!s.resolved&&(s.resolved=!0,n.emit("xhr-resolved",[],e)),i.inPlace(e,u,"fn-",y)}),(0,T.jT)(!1))}catch(t){(0,e.R)(15,t);try{n.emit("internal-error",[t])}catch(e){}}var s;return r};function g(e,t){i.inPlace(t,["onreadystatechange"],"fn-",y)}if(function(e,t){for(var r in e)t[r]=e[r]}(o,f),f.prototype=o.prototype,i.inPlace(f.prototype,z,"-xhr-",y),n.on("send-xhr-start",(function(e,t){g(e,t),function(e){l.push(e),a&&(p?p.then(b):c?c(b):(m=-m,v.data=m))}(t)})),n.on("open-xhr-start",g),a){var p=s&&s.resolve();if(!c&&!s){var m=1,v=document.createTextNode(m);new a(b).observe(v,{characterData:!0})}}else r.on("fn-end",(function(e){e[0]&&e[0].type===d||b()}));function b(){for(var e=0;e<l.length;e++)g(0,l[e]);l.length&&(l=[])}function y(e,t){return t}return n}var Z="fetch-",Y=Z+"body-",X=["arrayBuffer","blob","json","text","formData"],Q=h.gm.Request,J=h.gm.Response,ee="prototype";const te={};function re(e){const t=function(e){return(e||F.ee).get("fetch")}(e);if(!(Q&&J&&h.gm.fetch))return t;if(te[t.debugId]++)return t;function r(e,r,n){var i=e[r];"function"==typeof i&&(e[r]=function(){var e,r=[...arguments],o={};t.emit(n+"before-start",[r],o),o[F.P]&&o[F.P].dt&&(e=o[F.P].dt);var a=i.apply(this,r);return t.emit(n+"start",[r,e],a),a.then((function(e){return t.emit(n+"end",[null,e],a),e}),(function(e){throw t.emit(n+"end",[e],a),e}))})}return te[t.debugId]=1,X.forEach((e=>{r(Q[ee],e,Y),r(J[ee],e,Y)})),r(h.gm,"fetch",Z),t.on(Z+"end",(function(e,r){var n=this;if(r){var i=r.headers.get("content-length");null!==i&&(n.rxSize=i),t.emit(Z+"done",[null,r],n)}else t.emit(Z+"done",[e],n)})),t}var ne=i(7485),ie=i(5603);class oe{constructor(e){this.agentIdentifier=e}generateTracePayload(e){if(!this.shouldGenerateTrace(e))return null;var t=(0,ie.o)(this.agentIdentifier);if(!t)return null;var n=(t.accountID||"").toString()||null,i=(t.agentID||"").toString()||null,o=(t.trustKey||"").toString()||null;if(!n||!i)return null;var a=(0,r.ZF)(),s=(0,r.el)(),c=Date.now(),d={spanId:a,traceId:s,timestamp:c};return(e.sameOrigin||this.isAllowedOrigin(e)&&this.useTraceContextHeadersForCors())&&(d.traceContextParentHeader=this.generateTraceContextParentHeader(a,s),d.traceContextStateHeader=this.generateTraceContextStateHeader(a,c,n,i,o)),(e.sameOrigin&&!this.excludeNewrelicHeader()||!e.sameOrigin&&this.isAllowedOrigin(e)&&this.useNewrelicHeaderForCors())&&(d.newrelicHeader=this.generateTraceHeader(a,s,c,n,i,o)),d}generateTraceContextParentHeader(e,t){return"00-"+t+"-"+e+"-01"}generateTraceContextStateHeader(e,t,r,n,i){return i+"@nr=0-1-"+r+"-"+n+"-"+e+"----"+t}generateTraceHeader(e,t,r,n,i,o){if(!("function"==typeof h.gm?.btoa))return null;var a={v:[0,1],d:{ty:"Browser",ac:n,ap:i,id:e,tr:t,ti:r}};return o&&n!==o&&(a.d.tk=o),btoa((0,I.A)(a))}shouldGenerateTrace(e){return this.isDtEnabled()&&this.isAllowedOrigin(e)}isAllowedOrigin(e){var t=!1,r={};if((0,a.gD)(this.agentIdentifier,"distributed_tracing")&&(r=(0,a.D0)(this.agentIdentifier).distributed_tracing),e.sameOrigin)t=!0;else if(r.allowed_origins instanceof Array)for(var n=0;n<r.allowed_origins.length;n++){var i=(0,ne.D)(r.allowed_origins[n]);if(e.hostname===i.hostname&&e.protocol===i.protocol&&e.port===i.port){t=!0;break}}return t}isDtEnabled(){var e=(0,a.gD)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.enabled}excludeNewrelicHeader(){var e=(0,a.gD)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.exclude_newrelic_header}useNewrelicHeaderForCors(){var e=(0,a.gD)(this.agentIdentifier,"distributed_tracing");return!!e&&!1!==e.cors_use_newrelic_header}useTraceContextHeadersForCors(){var e=(0,a.gD)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.cors_use_tracecontext_headers}}var ae=i(9300),se=i(7295),ce=["load","error","abort","timeout"],de=ce.length,ue=(0,R.dV)().o.REQ,le=(0,R.dV)().o.XHR;class fe extends v{static featureName=ae.T;constructor(e,t=!0){super(e,ae.T,t),this.dt=new oe(e.agentIdentifier),this.handler=(e,t,r,n)=>(0,x.p)(e,t,r,n,this.ee);try{const e={xmlhttprequest:"xhr",fetch:"fetch",beacon:"beacon"};h.gm?.performance?.getEntriesByType("resource").forEach((t=>{if(t.initiatorType in e&&0!==t.responseStatus){const r={status:t.responseStatus},n={rxSize:t.transferSize,duration:Math.floor(t.duration),cbTime:0};he(r,t.name),this.handler("xhr",[r,n,t.startTime,t.responseEnd,e[t.initiatorType]],void 0,o.K7.ajax)}}))}catch(e){}re(this.ee),q(this.ee),function(e,t,r,n){function i(e){var t=this;t.totalCbs=0,t.called=0,t.cbTime=0,t.end=w,t.ended=!1,t.xhrGuids={},t.lastSize=null,t.loadCaptureCalled=!1,t.params=this.params||{},t.metrics=this.metrics||{},e.addEventListener("load",(function(r){A(t,e)}),(0,T.jT)(!1)),h.lR||e.addEventListener("progress",(function(e){t.lastSize=e.loaded}),(0,T.jT)(!1))}function a(e){this.params={method:e[0]},he(this,e[1]),this.metrics={}}function s(t,r){e.loader_config.xpid&&this.sameOrigin&&r.setRequestHeader("X-NewRelic-ID",e.loader_config.xpid);var i=n.generateTracePayload(this.parsedOrigin);if(i){var o=!1;i.newrelicHeader&&(r.setRequestHeader("newrelic",i.newrelicHeader),o=!0),i.traceContextParentHeader&&(r.setRequestHeader("traceparent",i.traceContextParentHeader),i.traceContextStateHeader&&r.setRequestHeader("tracestate",i.traceContextStateHeader),o=!0),o&&(this.dt=i)}}function c(e,r){var n=this.metrics,i=e[0],o=this;if(n&&i){var a=V(i);a&&(n.txSize=a)}this.startTime=(0,E.t)(),this.body=i,this.listener=function(e){try{"abort"!==e.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==e.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof r.onload)&&"function"==typeof o.end)&&o.end(r)}catch(e){try{t.emit("internal-error",[e])}catch(e){}}};for(var s=0;s<de;s++)r.addEventListener(ce[s],this.listener,(0,T.jT)(!1))}function d(e,t,r){this.cbTime+=e,t?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof r.onload||"function"!=typeof this.end||this.end(r)}function u(e,t){var r=""+U(e)+!!t;this.xhrGuids&&!this.xhrGuids[r]&&(this.xhrGuids[r]=!0,this.totalCbs+=1)}function l(e,t){var r=""+U(e)+!!t;this.xhrGuids&&this.xhrGuids[r]&&(delete this.xhrGuids[r],this.totalCbs-=1)}function f(){this.endTime=(0,E.t)()}function g(e,r){r instanceof le&&"load"===e[0]&&t.emit("xhr-load-added",[e[1],e[2]],r)}function p(e,r){r instanceof le&&"load"===e[0]&&t.emit("xhr-load-removed",[e[1],e[2]],r)}function m(e,t,r){t instanceof le&&("onload"===r&&(this.onload=!0),("load"===(e[0]&&e[0].type)||this.onload)&&(this.xhrCbStart=(0,E.t)()))}function v(e,r){this.xhrCbStart&&t.emit("xhr-cb-time",[(0,E.t)()-this.xhrCbStart,this.onload,r],r)}function b(e){var t,r=e[1]||{};if("string"==typeof e[0]?0===(t=e[0]).length&&h.RI&&(t=""+h.gm.location.href):e[0]&&e[0].url?t=e[0].url:h.gm?.URL&&e[0]&&e[0]instanceof URL?t=e[0].href:"function"==typeof e[0].toString&&(t=e[0].toString()),"string"==typeof t&&0!==t.length){t&&(this.parsedOrigin=(0,ne.D)(t),this.sameOrigin=this.parsedOrigin.sameOrigin);var i=n.generateTracePayload(this.parsedOrigin);if(i&&(i.newrelicHeader||i.traceContextParentHeader))if(e[0]&&e[0].headers)s(e[0].headers,i)&&(this.dt=i);else{var o={};for(var a in r)o[a]=r[a];o.headers=new Headers(r.headers||{}),s(o.headers,i)&&(this.dt=i),e.length>1?e[1]=o:e.push(o)}}function s(e,t){var r=!1;return t.newrelicHeader&&(e.set("newrelic",t.newrelicHeader),r=!0),t.traceContextParentHeader&&(e.set("traceparent",t.traceContextParentHeader),t.traceContextStateHeader&&e.set("tracestate",t.traceContextStateHeader),r=!0),r}}function y(e,t){this.params={},this.metrics={},this.startTime=(0,E.t)(),this.dt=t,e.length>=1&&(this.target=e[0]),e.length>=2&&(this.opts=e[1]);var r,n=this.opts||{},i=this.target;"string"==typeof i?r=i:"object"==typeof i&&i instanceof ue?r=i.url:h.gm?.URL&&"object"==typeof i&&i instanceof URL&&(r=i.href),he(this,r);var o=(""+(i&&i instanceof ue&&i.method||n.method||"GET")).toUpperCase();this.params.method=o,this.body=n.body,this.txSize=V(n.body)||0}function R(e,t){if(this.endTime=(0,E.t)(),this.params||(this.params={}),(0,se.iW)(this.params))return;let n;this.params.status=t?t.status:0,"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);const i={txSize:this.txSize,rxSize:n,duration:(0,E.t)()-this.startTime};r("xhr",[this.params,i,this.startTime,this.endTime,"fetch"],this,o.K7.ajax)}function w(e){const t=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(let t=0;t<de;t++)e.removeEventListener(ce[t],this.listener,!1);t.aborted||(0,se.iW)(t)||(n.duration=(0,E.t)()-this.startTime,this.loadCazptureCalled||4!==e.readyState?null==t.status&&(t.status=0):A(this,e),n.cbTime=this.cbTime,r("xhr",[t,n,this.startTime,this.endTime,"xhr"],this,o.K7.ajax))}}function A(e,r){e.params.status=r.status;var n=function(e,t){var r=e.responseType;return"json"===r&&null!==t?t:"arraybuffer"===r||"blob"===r||"json"===r?V(e.response):"text"===r||""===r||void 0===r?V(e.responseText):void 0}(r,e.lastSize);if(n&&(e.metrics.rxSize=n),e.sameOrigin){var i=r.getResponseHeader("X-NewRelic-App-Data");i&&((0,x.p)(_.rs,["Ajax/CrossApplicationTracing/Header/Seen"],void 0,o.K7.metrics,t),e.params.cat=i.split(", ").pop())}e.loadCaptureCalled=!0}t.on("new-xhr",i),t.on("open-xhr-start",a),t.on("open-xhr-end",s),t.on("send-xhr-start",c),t.on("xhr-cb-time",d),t.on("xhr-load-added",u),t.on("xhr-load-removed",l),t.on("xhr-resolved",f),t.on("addEventListener-end",g),t.on("removeEventListener-end",p),t.on("fn-end",v),t.on("fetch-before-start",b),t.on("fetch-start",y),t.on("fn-start",m),t.on("fetch-done",R)}(e,this.ee,this.handler,this.dt),this.importAggregator(e)}}function he(e,t){var r=(0,ne.D)(t),n=e.params||e;n.hostname=r.hostname,n.port=r.port,n.protocol=r.protocol,n.host=r.hostname+":"+r.port,n.pathname=r.pathname,e.parsedOrigin=r,e.sameOrigin=r.sameOrigin}const ge={},pe=["pushState","replaceState"];function me(e){const t=function(e){return(e||F.ee).get("history")}(e);return!h.RI||ge[t.debugId]++||(ge[t.debugId]=1,(0,B.YM)(t).inPlace(window.history,pe,"-")),t}var ve=i(3738);const{He:be,bD:ye,d3:Re,Kp:xe,TZ:we,Lc:Te,uP:Ae,Rz:Ee}=ve;class Se extends v{static featureName=we;constructor(e,t=!0){super(e,we,t);if(!(0,p.V)(this.agentIdentifier))return void this.deregisterDrain();const r=this.ee;let n;me(r),this.eventsEE=(0,G.u)(r),this.eventsEE.on(Ae,(function(e,t){this.bstStart=(0,E.t)()})),this.eventsEE.on(Te,(function(e,t){(0,x.p)("bst",[e[0],t,this.bstStart,(0,E.t)()],void 0,o.K7.sessionTrace,r)})),r.on(Ee+Re,(function(e){this.time=(0,E.t)(),this.startPath=location.pathname+location.hash})),r.on(Ee+xe,(function(e){(0,x.p)("bstHist",[location.pathname+location.hash,this.startPath,this.time],void 0,o.K7.sessionTrace,r)}));try{n=new PerformanceObserver((e=>{const t=e.getEntries();(0,x.p)(be,[t],void 0,o.K7.sessionTrace,r)})),n.observe({type:ye,buffered:!0})}catch(e){}this.importAggregator(e,{resourceObserver:n})}}var _e=i(2614);class Oe extends v{static featureName=t.TZ;#i;#o;constructor(e,r=!0){let n;super(e,t.TZ,r),this.replayRunning=!1,this.#o=e;try{n=JSON.parse(localStorage.getItem("".concat(_e.H3,"_").concat(_e.uh)))}catch(e){}(0,g.SR)(e.agentIdentifier)&&this.ee.on(t.G4.RECORD,(()=>this.#a())),this.#s(n)?(this.#i=n?.sessionReplayMode,this.#c()):this.importAggregator(e),this.ee.on("err",(e=>{this.replayRunning&&(this.errorNoticed=!0,(0,x.p)(t.G4.ERROR_DURING_REPLAY,[e],void 0,this.featureName,this.ee))})),this.ee.on(t.G4.REPLAY_RUNNING,(e=>{this.replayRunning=e}))}#s(e){return e&&(e.sessionReplayMode===_e.g.FULL||e.sessionReplayMode===_e.g.ERROR)||(0,g.Aw)(this.agentIdentifier)}#d=!1;async#c(e){if(!this.#d){this.#d=!0;try{const{Recorder:t}=await Promise.all([i.e(891),i.e(222)]).then(i.bind(i,2496));this.recorder??=new t({mode:this.#i,agentIdentifier:this.agentIdentifier,trigger:e,ee:this.ee}),this.recorder.startRecording(),this.abortHandler=this.recorder.stopRecording}catch(e){}this.importAggregator(this.#o,{recorder:this.recorder,errorNoticed:this.errorNoticed})}}#a(){this.featAggregate?this.featAggregate.mode!==_e.g.FULL&&this.featAggregate.initializeRecording(_e.g.FULL,!0):(this.#i=_e.g.FULL,this.#c(t.Qb.API),this.recorder&&this.recorder.parent.mode!==_e.g.FULL&&(this.recorder.parent.mode=_e.g.FULL,this.recorder.stopRecording(),this.recorder.startRecording(),this.abortHandler=this.recorder.stopRecording))}}var Ne=i(3333);class Ie extends v{static featureName=Ne.TZ;constructor(e,t=!0){super(e,Ne.TZ,t);const r=[e.init.page_action.enabled,e.init.performance.capture_marks,e.init.performance.capture_measures,e.init.user_actions.enabled];h.RI&&e.init.user_actions.enabled&&(Ne.Zp.forEach((e=>(0,T.sp)(e,(e=>(0,x.p)("ua",[e],void 0,this.featureName,this.ee)),!0))),Ne.qN.forEach((e=>(0,T.sp)(e,(e=>(0,x.p)("ua",[e],void 0,this.featureName,this.ee)))))),r.some((e=>e))?this.importAggregator(e):this.deregisterDrain()}}var Pe=i(993),je=i(3785);class Ce extends v{static featureName=Pe.TZ;constructor(e,t=!0){super(e,Pe.TZ,t);const r=this.ee;this.ee.on("wrap-logger-end",(function([e]){const{level:t,customAttributes:n}=this;(0,je.R)(r,e,n,t)})),this.importAggregator(e)}}new class extends n{constructor(t,r){super(r),h.gm?(this.features={},(0,R.bQ)(this.agentIdentifier,this),this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(y),this.runSoftNavOverSpa=[...this.desiredFeatures].some((e=>e.featureName===o.K7.softNav)),(0,d.j)(this,t,t.loaderType||"agent"),this.run()):(0,e.R)(21)}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}run(){try{const t=c(this.agentIdentifier),r=[...this.desiredFeatures];r.sort(((e,t)=>o.P3[e.featureName]-o.P3[t.featureName])),r.forEach((r=>{if(!t[r.featureName]&&r.featureName!==o.K7.pageViewEvent)return;if(this.runSoftNavOverSpa&&r.featureName===o.K7.spa)return;if(!this.runSoftNavOverSpa&&r.featureName===o.K7.softNav)return;const n=function(e){switch(e){case o.K7.ajax:return[o.K7.jserrors];case o.K7.sessionTrace:return[o.K7.ajax,o.K7.pageViewEvent];case o.K7.sessionReplay:return[o.K7.sessionTrace];case o.K7.pageViewTiming:return[o.K7.pageViewEvent];default:return[]}}(r.featureName).filter((e=>!(e in this.features)));n.length>0&&(0,e.R)(36,{targetFeature:r.featureName,missingDependencies:n}),this.features[r.featureName]=new r(this)}))}catch(t){(0,e.R)(22,t);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,R.Zm)();delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return r.ee.get(this.agentIdentifier).abort(),!1}}}({features:[y,S,Se,Oe,fe,O,D,Ie,Ce],loaderType:"pro"})})()})();(function(){var sitevars=JSON.parse(atob("eyJjbG9uZV9pZCI6MjAyNzcsInVybF9wYXRoIjoiXC9tZW51c1wvIiwiY2xpZW50X25hbWUiOiJUZW5heWEgVGVjaG5vbG9neSBQYXJ0bmVycyBMTEMiLCJ1YV9jYXRlZ29yeSI6InNtYXJ0cGhvbmUiLCJ1YV9uYW1lIjoiQ2hyb21lIiwiYmFzZV9kb21haW4iOiJrb2trYXJpLmNvbSIsInVhX3ZlbmRvciI6Ikdvb2dsZSIsImNsaWVudF9pZCI6MzgsInVhX21ham9yIjoxMDcsInByb3h5X3JlZ2lvbiI6ImV1LWNlbnRyYWwtMSIsInByb3h5X2xvYyI6IkZyYW5rZnVydCIsInVhX29zIjoiQW5kcm9pZCIsInNkX2hvc3QiOiJob3N0LTEyIiwic2RfcHJveHkiOiJwcm94eS0xMCIsInBhZ2VfdXJsIjoiXC9tZW51c1wvIiwiY2xpZW50X3R5cGUiOiJzdGFuZGFyZCIsInNpdGVfZ3JvdXAiOjY3LCJjbGllbnRfdXNlciI6InRlbmF5YSIsInNlcnZlcl90aW1lIjowLjAwMiwicmVxdWVzdF9pZCI6Ijk2NWEwNjg0YTZiMjc3OTJjNzBkMmI2YTJmZjExOTcyIiwiaHR0cF9wcm90b2NvbCI6IjIuMCIsInNob3J0X25hbWUiOiJrb2trYXJpIiwic2l0ZV9pZCI6NDE5NjcsImNsb25lX2hhc2giOiJjOTFhZDY2NSIsInVhU3RyaW5nIjoiTW96aWxsYVwvNS4wIChMaW51eDsgQW5kcm9pZCAxMzsgU00tQTIzNUYpIEFwcGxlV2ViS2l0XC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWVcLzEwNy4wLjAuMCBNb2JpbGUgU2FmYXJpXC81MzcuMzYiLCJxdWVyeV9zdHJpbmciOiIiLCJhc25fbnVtYmVyIjozMjgwNzMsImFzbl9uYW1lIjoiSW9uLVRlbGVjb20tQVMiLCJsb2dfaGFzaCI6ImM5MWFkNjY1Iiwic291cmNlX2lwIjoiMTY0LjE2MC4xNDUuMyJ9"));for(const key of Object.keys(sitevars)){newrelic.setCustomAttribute(key,sitevars[key]);}})();window.sd_fw_hash='bd012ae3c5ae1ba8189f51511ccba7a7';(function(){var e,t,n,o,r,a,i,u,s,c,l,d,g,f,h,m,p,v,w,b,y,_,E,D,P,S,k,M,T,L,x,C,B;if(i={},P=[],M=Date.now(),L={window:{}},x=!1,u=!1,e=!1,D=!1,c=g=l=f=h=null,m=1,d={2:"platform",4:"brave",8:"language",9:"appVersion",10:"webdriver",11:"maxTouchPoints",12:"deviceMemory",13:"getBattery",14:"doNotTrack",15:"hardwareConcurrency",17:"globalPrivacyControl",18:"innerWidth",19:"innerHeight",20:"outerWidth",21:"outerHeight",22:"devicePixelRatio",26:"languages",27:"strlen",28:"plugins",29:"rtt",30:"mimelen",33:"availWidth",34:"availHeight",35:"colorDepth",36:"pixelDepth",37:"mathHypot",38:"objSource",39:"cssMozUF",40:"cssWkBvs",41:"touchEvent",43:"webGLRenderer",44:"navProtoLen",45:"uaPlatform",46:"uaMobile",47:"uaBrands",48:"mimeTypesProto",49:"pluginsProto",51:"connect",53:"sendMessage",54:"tzName",55:"audiooutput",56:"audioinput",57:"videoinput",58:"platformVersion",59:"uaChromium",60:"uaGoogleChrome",61:"notifyPerms",62:"notifyState",64:"ttfi",65:"mouseMove",66:"mouseWheel",67:"clickEvent",68:"dblclickEvent",69:"windowResize",70:"scrollEvent",71:"keyPress",72:"pageLoads",73:"bd_created",74:"bd_updated",75:"bd_id",76:"touchStart",77:"notRobotClick"},t="_-ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",r=function(e){var n,o,r;for(r="",n=0;n<e.length;){for(o=e.slice(n,+(n+5)+1||9e9);o.length<6;)o+="0";r+=t[parseInt(o,2)],n+=6}return r},o=function(e){var n,o,r;for(n="",o=0;o<e.length;){for(r=t.indexOf(e[o]).toString(2);r.length<6;)r="0"+r;n+=r,o++}return n},C=function(e){return e.charAt(0).toUpperCase()+e.slice(1)},S=function(){var e,t,n,r,a,u,s,c,l,g,f,h;try{if((h=document.cookie.match(/sd_fw_data=([^;]+)/))&&(s=h[1].split(/\|/g),s[3])){for(c=atob(s[3]),f=c.split(/\|/),e=o(s[2]),t={true:!0,false:!1},l=g=0;l<e.length;)"1"===e[l]&&(r=d[l],u=f[g],a=Number(u),a&&"mathHypot"!==r?u=a:null!=t[u]&&(u=t[u]),i[r]=u,g++),l++;return window.navigator.appVersion===i.appVersion||(document.cookie="sd_fw_data=; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/; secure",!1)}}catch(e){return n=e,localStorage.sd_test&&console.log(n),!1}},B=function(){var e,t,n,o,r,a,u;if(S(),e=Math.floor(Date.now()/1e3)-i.bd_updated,D||e>300){D=!1;for(n in L){o=L[n];for(a in o)u=o[a],"ttfi"!==a&&(t=n+C(a),null==i[t]&&(i[t]=0),i[t]+=null!=(r=null!=u?u.total:void 0)?r:u,localStorage.sd_test&&console.log(t,JSON.stringify(u)),delete L[n][a])}return i.ttfi=L.window.ttfi,k()}},k=function(){var e,t,n,o,a,u,s,p,v;for(i.bd_updated=Math.floor(Date.now()/1e3),c=[],u=[],s=p=0;p<=77;s=++p)c.push(d[s]?1:0),null!=d[s]&&(a=null!=(v=i[d[s]])&&"function"==typeof(e=v.toString()).replace?e.replace("|","_"):void 0,null===a&&(a="null"),u.push(a));return f=u.join("|"),g=c.join(""),l=r(g),h=btoa(f),n=[m,l,h].join("|"),t=new Date,t.setTime(t.getTime()+2592e6),o="; expires="+t.toUTCString(),localStorage.sd_test&&console.log(sd_fw_hash,o,n),document.cookie="sd_fw_data="+[window.sd_fw_hash,n].join("|")+o+"; path=/; secure; samesite=none"},window.notRobot=function(){return S(),i.notRobotClick=1,k()},window.showbd=function(){return S(),console.log([g,l,f,f.length,h.length]),i},w=function(){var e,t,n,o,r,a,i,u,s;for(i=["mouse","touch","key","scroll","click","dblclick"],u=[],t=0,n=i.length;t<n;t++){switch(e=i[t],L[e]={},e){case"mouse":s=["move","wheel"];break;case"touch":s=["start"];break;case"key":s=["press"];break;case"scroll":case"click":case"dblclick":s=[""]}for(a=0,o=s.length;a<o;a++)r=s[a],function(){var t,n;return t=e,n=r,""===r&&(n="event"),document.addEventListener(t+r,function(e){var o;return x||(x=L.window.ttfi=Date.now()-M),null==L[t]&&(L[t]={}),null==(o=L[t])[n]&&(o[n]={total:0}),L[t][n].total++,D=!0})}();u.push(window.addEventListener("resize",function(e){var t;return t=L.window,null==t.resize&&(t.resize=0),t.resize++,D=!0}))}return u},T=function(){return setInterval(B,200)},s=function(){if(e&&clearTimeout(e),!u)return u=!0,k(),w(),"undefined"!=typeof mycb&&null!==mycb?"function"==typeof mycb?mycb(i):void 0:T()},E=function(){var e,t,n;for(t="",e="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",n=1;n<=20;++n)t+=e.charAt(Math.floor(Math.random()*e.length));return t},v=function(){return null==i.bd_created&&(i.bd_created=Math.floor(Date.now()/1e3)),null==i.bd_id&&(i.bd_id=E()),null==i.pageLoads&&(i.pageLoads=0),i.pageLoads++,k()},S())return v(),localStorage.sd_test&&console.log("appVersion OK"),w(),void("undefined"!=typeof mycb&&null!==mycb?"function"==typeof mycb&&mycb(i):T());if(v(),p=function(e){var t,n,o,r,a,u,s,c,l,d,g,f,h,m,p,v,w,b,y,_,E,D,P,S,k,M,T,L,x,C,B,O,V,N,z;b=["appName","appCodeName","platform","cookieEnabled","userAgent","brave","vendor","product","productSub","language","appVersion","webdriver","maxTouchPoints","msMaxTouchPoints","deviceMemory","getBattery","doNotTrack","hardwareConcurrency","onLine","pdfViewerEnabled","globalPrivacyControl"],z=["innerHeight","outerHeight","outerWidth","innerWidth","screenX","pageXOffset","pageYOffset","devicePixelRatio","webkitCancelAnimationFrame","mozInnerScreenX","PERSISTENT"],n=function(e,t){var n,o,r,a,u;for(a=[],o=0,r=t.length;o<r;o++)n=t[o],u=e[n],n=n.replace(/^_+/,""),"function"==typeof u?a.push(i[n]=!0):a.push(i[n]=null!=u?u:null);return a};try{for(n(navigator,b),n(window,z),i.languages=navigator.languages.join(","),i.strlen=eval.toString().length,i.plugins=navigator.plugins.length,i.rtt=null!=(M=navigator.connection)?M.rtt:void 0,i.mimelen=navigator.mimeTypes.length,i.brave=!!navigator.brave,r=["clientWidth","clientHeight"],g=0,f=r.length;g<f;g++)d=r[g],i[d]=null!=(T=document.body)?T[d]:void 0;for(N=["width","height","availWidth","availHeight","colorDepth","pixelDepth"],y=0,h=N.length;y<h;y++)d=N[y],i[d]=screen[d];i.mathHypot=Math.hypot(-24.42,-50.519999999999925),i.objSource=void 0!=={}.toSource}catch(e){c=e,i.miscErr=c.message}try{i.cssMozUF=CSS.supports("-moz-user-focus","normal"),i.cssWkBvs=CSS.supports("-webkit-border-vertical-spacing",0)}catch(e){i.cssErr=c.message}try{document.createEvent("TouchEvent"),i.touchEvent=!0}catch(e){c=e,i.touchEvent=!1}i.webGLVendor=null,i.webGLRenderer=null;try{u=document.createElement("canvas"),s=null!=(L=u.getContext("webgl"))?L:u.getContext("experimental-webgl"),V="WEBGL_debug_renderer_info",s.getSupportedExtensions().indexOf(V)>=0&&(i.webGLVendor=s.getParameter(s.getExtension(V).UNMASKED_VENDOR_WEBGL),i.webGLRenderer=s.getParameter(s.getExtension(V).UNMASKED_RENDERER_WEBGL))}catch(e){c=e,i.webGLErr=c.message}try{_=window.navigator,D=[];for(w in window.navigator.__proto__)D.push(w);for(;_=Object.getPrototypeOf(_);)l=[],D.forEach(function(e){return function(e){var t,n;return t=Object.getOwnPropertyDescriptor(Object.getPrototypeOf(navigator),e),null!=t?null!=t.value?n=t.value.toString():null!=t.get&&(n=t.get.toString()):n="",l.push(e+"~~~"+n)}}());if(i.navProtoLen=l.join(":").length,i.uaBrands=i.uaMobile=i.uaPlatform=null,navigator.userAgentData){for(x=["Mobile","Platform"],E=0,m=x.length;E<m;E++)d=x[E],i["ua"+d]=navigator.userAgentData[d.toLowerCase()];for(a=[],C=navigator.userAgentData.brands,S=0,p=C.length;S<p;S++)_=C[S],a.push(_.brand+":"+_.version);i.uaBrands=a.join(",")}}catch(e){c=e,i.navProtoErr=c.message}try{P={mimeTypes:MimeTypeArray,plugins:PluginArray};for(d in P)o=P[d],i[d+"Proto"]=o.prototype===navigator[d].__proto__}catch(e){c=e,i.pmErr=c.message}if(window.chrome){try{for(B=["webstore","runtime","app","csi","loadTimes"],k=0,v=B.length;k<v;k++)d=B[k],i[d]=window.chrome[d].constructor.toString().length}catch(e){c=e,i.chromeProps=!1}try{window.chrome.runtime.connect("")}catch(e){c=e,i.connectErr=c.message,i.connect=c.message.length}try{window.chrome.runtime.sendMessage()}catch(e){c=e,i.sendMessageErr=c.message,i.sendMessage=c.message.length}}try{(function(){var e;return e=(new Date).getFullYear(),Math.max(toFloat(new Date(e,0,1).getTimezoneOffset()),toFloat(new Date(e,6,1).getTimezoneOffset()))}),t=null!=(O=window.Intl)?O.DateTimeFormat:void 0,t&&(i.tzName=(new t).resolvedOptions().timeZone)}catch(e){c=e,i.tzErr=c.message}return e()},Promise){for(P.push(new Promise(function(e){return p(e)})),P.push(new Promise(function(e){var t,n;return t=null!=(n=navigator.userAgentData)&&"function"==typeof n.getHighEntropyValues?n.getHighEntropyValues(["platformVersion","fullVersionList"]):void 0,t?t.then(function(t){var n,o,r,a,u,s,c;for(n in t)c=t[n],"platformVersion"===n&&(i[n]=c);for(s=null!=(u=t.fullVersionList)?u:[],o=0,r=s.length;o<r;o++)a=s[o],a.brand.match(/Not.A.Brand/)||(i["ua"+a.brand.replace(/\s+/,"")]=a.version);return e()}).catch(function(t){return e()}):e()})),n=["audiooutput","audioinput","videoinput"],y=0,_=n.length;y<_;y++)b=n[y],i[b]=0;a=function(){var e,t,o;for(o=[],t=0,e=n.length;t<e;t++)b=n[t],o.push(i[b]=null);return o},P.push(new Promise(function(e){return function(e){return navigator.mediaDevices&&navigator.mediaDevices.enumerateDevices&&"bound reportBlock"!==navigator.mediaDevices.enumerateDevices.name?navigator.mediaDevices.enumerateDevices().then(function(t){var n,o,r;if(void 0!==t)for(r=0,o=t.length;r<o;r++)n=t[r],i[n.kind]++;return e()}).catch(function(t){return a(),e()}):(a(),navigator.mediaDevices&&navigator.mediaDevices.enumerateDevices&&"bound reportBlock"===navigator.mediaDevices.enumerateDevices.name&&(i.devicesBlockedByBrave=!0),e())}}())),P.push(new Promise(function(e){return function(e){var t;return t=navigator.permissions.query({name:"notifications"}),t?t.then(function(t){return i.notifyPerms=Notification.permission,i.notifyState=t.state,e()}).catch(function(t){return e()}):e()}}())),Promise.all(P).then(s),e=setTimeout(s,2e3)}else p(s)}).call(this);</script>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+	<!-- This site is optimized with the Yoast SEO plugin v24.3 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Menus - KOKKARI</title>
+	<meta name="description" content="Explore Kokkari Estiatorio&#039;s renowned Greek menu featuring wood-fired meats, fresh seafood, and seasonal ingredients. View our lunch, dinner, and wine selections in San Francisco." />
+	<link rel="canonical" href="https://kokkari.com/menus/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Menus - KOKKARI" />
+	<meta property="og:description" content="Explore Kokkari Estiatorio&#039;s renowned Greek menu featuring wood-fired meats, fresh seafood, and seasonal ingredients. View our lunch, dinner, and wine selections in San Francisco." />
+	<meta property="og:url" content="https://kokkari.com/menus/" />
+	<meta property="og:site_name" content="KOKKARI" />
+	<meta property="article:modified_time" content="2025-03-17T21:27:06+00:00" />
+	<meta property="og:image" content="https://kokkari.com/wp-content/uploads/KO_246_Kokkari15099.jpg" />
+	<meta property="og:image:width" content="1708" />
+	<meta property="og:image:height" content="2560" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Est. reading time" />
+	<meta name="twitter:data1" content="10 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://kokkari.com/menus/","url":"https://kokkari.com/menus/","name":"Menus - KOKKARI","isPartOf":{"@id":"https://kokkari.com/#website"},"primaryImageOfPage":{"@id":"https://kokkari.com/menus/#primaryimage"},"image":{"@id":"https://kokkari.com/menus/#primaryimage"},"thumbnailUrl":"https://kokkari.com/wp-content/uploads/KO_246_Kokkari15099.jpg","datePublished":"2024-10-29T23:37:40+00:00","dateModified":"2025-03-17T21:27:06+00:00","description":"Explore Kokkari Estiatorio's renowned Greek menu featuring wood-fired meats, fresh seafood, and seasonal ingredients. View our lunch, dinner, and wine selections in San Francisco.","breadcrumb":{"@id":"https://kokkari.com/menus/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://kokkari.com/menus/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://kokkari.com/menus/#primaryimage","url":"https://kokkari.com/wp-content/uploads/KO_246_Kokkari15099.jpg","contentUrl":"https://kokkari.com/wp-content/uploads/KO_246_Kokkari15099.jpg","width":1708,"height":2560,"caption":"Kokkari Estiatorio - Fried Smelt"},{"@type":"BreadcrumbList","@id":"https://kokkari.com/menus/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://kokkari.com/"},{"@type":"ListItem","position":2,"name":"Menus"}]},{"@type":"WebSite","@id":"https://kokkari.com/#website","url":"https://kokkari.com/","name":"KOKKARI ESTIATORIO","description":"KOKKARI ESTIATORIO","publisher":{"@id":"https://kokkari.com/#organization"},"alternateName":"KOKKARI","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://kokkari.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://kokkari.com/#organization","name":"Kokkari Estiatorio","url":"https://kokkari.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://kokkari.com/#/schema/logo/image/","url":"https://kokkari.com/wp-content/uploads/kokkari-logo-350.png","contentUrl":"https://kokkari.com/wp-content/uploads/kokkari-logo-350.png","width":350,"height":102,"caption":"Kokkari Estiatorio"},"image":{"@id":"https://kokkari.com/#/schema/logo/image/"}}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="KOKKARI &raquo; Feed" href="https://kokkari.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="KOKKARI &raquo; Comments Feed" href="https://kokkari.com/comments/feed/" />
+					<link rel="shortcut icon" href="https://kokkari.com/wp-content/uploads/kokkari-icon-16.png" type="image/x-icon" />
+		
+					<!-- Apple Touch Icon -->
+			<link rel="apple-touch-icon" sizes="180x180" href="https://kokkari.com/wp-content/uploads/kokkari-icon-114.png">
+		
+					<!-- Android Icon -->
+			<link rel="icon" sizes="192x192" href="https://kokkari.com/wp-content/uploads/kokkari-icon-57.png">
+		
+					<!-- MS Edge Icon -->
+			<meta name="msapplication-TileImage" content="https://kokkari.com/wp-content/uploads/kokkari-icon-72.png">
+									<meta name="description" content="MENUS"/>
+				
+		<meta property="og:locale" content="en_US"/>
+		<meta property="og:type" content="article"/>
+		<meta property="og:site_name" content="KOKKARI"/>
+		<meta property="og:title" content="Menus - KOKKARI"/>
+				<meta property="og:description" content="MENUS"/>
+				<meta property="og:url" content="https://kokkari.com/menus/"/>
+													<meta property="article:modified_time" content="2025-03-17T21:27:06-07:00"/>
+											<meta property="og:image" content="https://kokkari.com/wp-content/uploads/KO_246_Kokkari15099.jpg"/>
+		<meta property="og:image:width" content="1708"/>
+		<meta property="og:image:height" content="2560"/>
+		<meta property="og:image:type" content="image/jpeg"/>
+				<link rel='stylesheet' id='pojo-a11y-css' href='https://kokkari.com/wp-content/plugins/pojo-accessibility/assets/css/style.min.css?fsum=b86f794de801' type='text/css' media='all' />
+<link rel='stylesheet' id='fusion-dynamic-css-css' href='https://kokkari.com/wp-content/uploads/fusion-styles/e4910c7be72cb318a72376654aa37b42.min.css?fsum=e4910c7be72c' type='text/css' media='all' />
+<script type="text/javascript" src="https://kokkari.com/wp-includes/js/jquery/jquery.min.js?fsum=826eb77e86b0" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://kokkari.com/wp-content/plugins/revslider/sr6/assets/js/rbtools.min.js?fsum=0a7176e860c4" id="tp-tools-js"></script>
+<script type="text/javascript" src="https://kokkari.com/wp-content/plugins/revslider/sr6/assets/js/rs6.min.js?fsum=74eb1d6c5462" id="revmin-js"></script>
+<link rel="https://api.w.org/" href="https://kokkari.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://kokkari.com/wp-json/wp/v2/pages/2511" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://kokkari.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.7.2" />
+<link rel='shortlink' href='https://kokkari.com/?p=2511' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://kokkari.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkokkari.com%2Fmenus%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://kokkari.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkokkari.com%2Fmenus%2F&#038;format=xml" />
+<style type="text/css" id="css-fb-visibility">@media screen and (max-width: 800px){.fusion-no-small-visibility{display:none !important;}body .sm-text-align-center{text-align:center !important;}body .sm-text-align-left{text-align:left !important;}body .sm-text-align-right{text-align:right !important;}body .sm-flex-align-center{justify-content:center !important;}body .sm-flex-align-flex-start{justify-content:flex-start !important;}body .sm-flex-align-flex-end{justify-content:flex-end !important;}body .sm-mx-auto{margin-left:auto !important;margin-right:auto !important;}body .sm-ml-auto{margin-left:auto !important;}body .sm-mr-auto{margin-right:auto !important;}body .fusion-absolute-position-small{position:absolute;top:auto;width:100%;}.awb-sticky.awb-sticky-small{ position: sticky; top: var(--awb-sticky-offset,0); }}@media screen and (min-width: 801px) and (max-width: 1024px){.fusion-no-medium-visibility{display:none !important;}body .md-text-align-center{text-align:center !important;}body .md-text-align-left{text-align:left !important;}body .md-text-align-right{text-align:right !important;}body .md-flex-align-center{justify-content:center !important;}body .md-flex-align-flex-start{justify-content:flex-start !important;}body .md-flex-align-flex-end{justify-content:flex-end !important;}body .md-mx-auto{margin-left:auto !important;margin-right:auto !important;}body .md-ml-auto{margin-left:auto !important;}body .md-mr-auto{margin-right:auto !important;}body .fusion-absolute-position-medium{position:absolute;top:auto;width:100%;}.awb-sticky.awb-sticky-medium{ position: sticky; top: var(--awb-sticky-offset,0); }}@media screen and (min-width: 1025px){.fusion-no-large-visibility{display:none !important;}body .lg-text-align-center{text-align:center !important;}body .lg-text-align-left{text-align:left !important;}body .lg-text-align-right{text-align:right !important;}body .lg-flex-align-center{justify-content:center !important;}body .lg-flex-align-flex-start{justify-content:flex-start !important;}body .lg-flex-align-flex-end{justify-content:flex-end !important;}body .lg-mx-auto{margin-left:auto !important;margin-right:auto !important;}body .lg-ml-auto{margin-left:auto !important;}body .lg-mr-auto{margin-right:auto !important;}body .fusion-absolute-position-large{position:absolute;top:auto;width:100%;}.awb-sticky.awb-sticky-large{ position: sticky; top: var(--awb-sticky-offset,0); }}</style><style type="text/css">
+#pojo-a11y-toolbar .pojo-a11y-toolbar-toggle a{ background-color: #333333;	color: #ffffff;}
+#pojo-a11y-toolbar .pojo-a11y-toolbar-overlay, #pojo-a11y-toolbar .pojo-a11y-toolbar-overlay ul.pojo-a11y-toolbar-items.pojo-a11y-links{ border-color: #333333;}
+body.pojo-a11y-focusable a:focus{ outline-style: solid !important;	outline-width: 1px !important;	outline-color: #FF0000 !important;}
+#pojo-a11y-toolbar{ top: 700px !important;}
+#pojo-a11y-toolbar .pojo-a11y-toolbar-overlay{ background-color: #ffffff;}
+#pojo-a11y-toolbar .pojo-a11y-toolbar-overlay ul.pojo-a11y-toolbar-items li.pojo-a11y-toolbar-item a, #pojo-a11y-toolbar .pojo-a11y-toolbar-overlay p.pojo-a11y-toolbar-title{ color: #333333;}
+#pojo-a11y-toolbar .pojo-a11y-toolbar-overlay ul.pojo-a11y-toolbar-items li.pojo-a11y-toolbar-item a.active{ background-color: #4054b2;	color: #ffffff;}
+@media (max-width: 767px) { #pojo-a11y-toolbar { top: 550px !important; } }</style><meta name="generator" content="Powered by Slider Revolution 6.7.25 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<script>function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
+				try {
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) || (e.l=="fullwidth" || e.layout=="fullwidth") ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
+					if(e.layout==="fullscreen" || e.l==="fullscreen")
+						newh = Math.max(e.mh,window.RSIH);
+					else{
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,
+							sl;
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}
+					var el = document.getElementById(e.c);
+					if (el!==null && el) el.style.height = newh+"px";
+					el = document.getElementById(e.c+"_wrapper");
+					if (el!==null && el) {
+						el.style.height = newh+"px";
+						el.style.display = "block";
+					}
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}
+			//});
+		  };</script>
+		<script type="text/javascript">
+			var doc = document.documentElement;
+			doc.setAttribute( 'data-useragent', navigator.userAgent );
+		</script>
+		<style type="text/css" id="fusion-builder-template-footer-css">a {text-decoration: none !important;}</style><style type="text/css" id="fusion-builder-page-css">.food-menus {font-family:'TempusSans';  font-size: .9em;}
+
+.food-menus strong {
+  font-family:'TempusSans';text-shadow: 0 0 1px rgba(0, 0, 0, 01);
+  color: #000;
+  font-size: 1.1em;
+}
+
+@media only screen and (max-width: 800px) {
+    .fusion-tabs.mobile-mode-carousel .nav-tabs {
+  
+        justify-content: center;
+    }
+}</style><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70924126-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- GA4 Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YXQMY0PG7L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YXQMY0PG7L');
+</script>
+	<script>
+jQuery(document).ready(function($) {
+    $('img[title]').each(function() { $(this).removeAttr('title'); });
+});
+</script></head>
+
+<body class="page-template page-template-100-width page-template-100-width-php page page-id-2511 awb-no-sidebars fusion-image-hovers fusion-pagination-sizing fusion-button_type-flat fusion-button_span-no fusion-button_gradient-linear avada-image-rollover-circle-yes avada-image-rollover-no fusion-body ltr no-tablet-sticky-header no-mobile-sticky-header fusion-disable-outline fusion-sub-menu-fade mobile-logo-pos-center layout-wide-mode avada-has-boxed-modal-shadow-none layout-scroll-offset-full avada-has-zero-margin-offset-top fusion-top-header menu-text-align-center mobile-menu-design-modern fusion-show-pagination-text fusion-header-layout-v5 avada-responsive avada-footer-fx-none avada-menu-highlight-style-bar fusion-search-form-classic fusion-main-menu-search-overlay fusion-avatar-square avada-sticky-shrinkage avada-dropdown-styles avada-blog-layout-large avada-blog-archive-layout-large avada-header-shadow-no avada-menu-icon-position-left avada-has-mainmenu-dropdown-divider avada-has-breadcrumb-mobile-hidden avada-has-titlebar-hide avada-has-pagination-padding avada-flyout-menu-direction-fade avada-ec-views-v1 awb-link-decoration" data-awb-post-id="2511">
+		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<div id="boxed-wrapper">
+		
+		<div id="wrapper" class="fusion-wrapper">
+			<div id="home" style="position:relative;top:-1px;"></div>
+														<div id="sliders-container" class="fusion-slider-visibility">
+					</div>
+				<div class="fusion-tb-header"><div class="fusion-fullwidth fullwidth-box fusion-builder-row-1 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling fusion-custom-z-index fusion-absolute-container fusion-absolute-position-small fusion-absolute-position-medium fusion-absolute-position-large" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-z-index:100;--awb-background-color:rgba(255,255,255,0);--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-justify-content-flex-end fusion-flex-content-wrap" style="max-width:1248px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-0 fusion_builder_column_1_5 1_5 fusion-flex-column" style="--awb-padding-top:30px;--awb-bg-size:cover;--awb-width-large:20%;--awb-margin-top-large:0px;--awb-spacing-right-large:9.6%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:9.6%;--awb-width-medium:20%;--awb-order-medium:0;--awb-spacing-right-medium:9.6%;--awb-spacing-left-medium:9.6%;--awb-width-small:20%;--awb-order-small:0;--awb-spacing-right-small:9.6%;--awb-spacing-left-small:9.6%;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-image-element " style="text-align:left;--awb-max-width:170px;--awb-caption-title-font-family:var(--h2_typography-font-family);--awb-caption-title-font-weight:var(--h2_typography-font-weight);--awb-caption-title-font-style:var(--h2_typography-font-style);--awb-caption-title-size:var(--h2_typography-font-size);--awb-caption-title-transform:var(--h2_typography-text-transform);--awb-caption-title-line-height:var(--h2_typography-line-height);--awb-caption-title-letter-spacing:var(--h2_typography-letter-spacing);"><span class=" fusion-imageframe imageframe-none imageframe-1 hover-type-none"><a class="fusion-no-lightbox" href="https://kokkari.com/" target="_self" aria-label="kokkari-icon-45-wh-ds"><img decoding="async" width="45" height="45" src="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2745%27%20height%3D%2745%27%20viewBox%3D%270%200%2045%2045%27%3E%3Crect%20width%3D%2745%27%20height%3D%2745%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E" data-orig-src="https://kokkari.com/wp-content/uploads/kokkari-icon-45-wh-ds.png" alt class="lazyload img-responsive wp-image-3108"/></a></span></div></div></div><div class="fusion-layout-column fusion_builder_column fusion-builder-column-1 fusion_builder_column_4_5 4_5 fusion-flex-column" style="--awb-bg-color:transparent;--awb-bg-color-hover:transparent;--awb-bg-size:cover;--awb-width-large:80%;--awb-margin-top-large:30px;--awb-spacing-right-large:2.4%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:2.4%;--awb-width-medium:80%;--awb-order-medium:0;--awb-spacing-right-medium:2.4%;--awb-spacing-left-medium:2.4%;--awb-width-small:80%;--awb-order-small:0;--awb-spacing-right-small:2.4%;--awb-spacing-left-small:2.4%;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><nav class="awb-menu awb-menu_row awb-menu_em-hover mobile-mode-collapse-to-button awb-menu_icons-left awb-menu_dc-no mobile-trigger-fullwidth-off awb-menu_mobile-toggle awb-menu_indent-left mobile-size-column-relative loading mega-menu-loading awb-menu_desktop awb-menu_dropdown awb-menu_expand-right awb-menu_transition-fade" style="--awb-bg:var(--awb-color8);--awb-gap:31px;--awb-align-items:flex-start;--awb-justify-content:flex-end;--awb-items-padding-top:10px;--awb-items-padding-right:25px;--awb-items-padding-bottom:10px;--awb-items-padding-left:25px;--awb-border-color:var(--awb-color8);--awb-color:var(--awb-color1);--awb-active-color:var(--awb-color1);--awb-active-bg:var(--awb-color8);--awb-active-border-color:var(--awb-color8);--awb-submenu-color:var(--awb-color1);--awb-submenu-bg:var(--awb-color8);--awb-submenu-items-padding-top:10px;--awb-submenu-items-padding-right:25px;--awb-submenu-items-padding-bottom:10px;--awb-submenu-items-padding-left:25px;--awb-submenu-active-bg:var(--awb-color6);--awb-submenu-active-color:var(--awb-color1);--awb-submenu-font-size:16px;--awb-icons-color:var(--awb-color8);--awb-icons-hover-color:var(--awb-color1);--awb-main-justify-content:flex-start;--awb-sub-justify-content:flex-start;--awb-mobile-nav-button-align-hor:flex-end;--awb-mobile-bg:var(--awb-color8);--awb-mobile-color:#f6f6f6;--awb-mobile-nav-items-height:30;--awb-mobile-active-bg:var(--awb-color4);--awb-mobile-trigger-font-size:24px;--awb-mobile-trigger-color:#ffffff;--awb-mobile-trigger-background-color:var(--awb-color8);--awb-mobile-sep-color:var(--awb-color6);--awb-mobile-justify:flex-start;--awb-mobile-caret-left:auto;--awb-mobile-caret-right:0;--awb-fusion-font-family-typography:&quot;AshburyLight&quot;;--awb-fusion-font-style-typography:normal;--awb-fusion-font-weight-typography:400;--awb-fusion-font-family-submenu-typography:&quot;AshburyLight&quot;;--awb-fusion-font-style-submenu-typography:normal;--awb-fusion-font-weight-submenu-typography:400;--awb-fusion-font-family-mobile-typography:inherit;--awb-fusion-font-style-mobile-typography:normal;--awb-fusion-font-weight-mobile-typography:400;" aria-label="Main" data-breakpoint="0" data-count="0" data-transition-type="fade" data-transition-time="300" data-expand="right"><ul id="menu-main" class="fusion-menu awb-menu__main-ul awb-menu__main-ul_row"><li  id="menu-item-2409"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2409 awb-menu__li awb-menu__main-li awb-menu__main-li_regular"  data-item-id="2409"><span class="awb-menu__main-background-default awb-menu__main-background-default_fade"></span><span class="awb-menu__main-background-active awb-menu__main-background-active_fade"></span><a  href="https://kokkari.com/reservations/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">RESERVE</span></a></li><li  id="menu-item-2412"  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-2412 awb-menu__li awb-menu__main-li awb-menu__main-li_regular"  data-item-id="2412"><span class="awb-menu__main-background-default awb-menu__main-background-default_fade"></span><span class="awb-menu__main-background-active awb-menu__main-background-active_fade"></span><a  href="#" class="awb-menu__main-a awb-menu__main-a_regular awb-menu__main-a_icon-only fusion-flex-link"><span class="awb-menu__i awb-menu__i_main fusion-megamenu-icon"><i class="glyphicon fa-bars fas" aria-hidden="true"></i></span><span class="menu-text"><span class="menu-title menu-title_no-desktop">hamburger</span></span><span class="awb-menu__open-nav-submenu-hover"></span></a><button type="button" aria-label="Open submenu of hamburger" aria-expanded="false" class="awb-menu__open-nav-submenu_mobile awb-menu__open-nav-submenu_main"></button><ul class="awb-menu__sub-ul awb-menu__sub-ul_main"><li  id="menu-item-2729"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2729 awb-menu__li awb-menu__sub-li" ><a  href="https://kokkari.com/private-dining/" class="awb-menu__sub-a"><span>PRIVATE DINING</span></a></li><li  id="menu-item-2524"  class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2511 current_page_item menu-item-2524 awb-menu__li awb-menu__sub-li" ><a  href="https://kokkari.com/menus/" class="awb-menu__sub-a" aria-current="page"><span>MENUS</span></a></li><li  id="menu-item-2176"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2176 awb-menu__li awb-menu__sub-li" ><a  href="https://kokkari.com/cookbook/" class="awb-menu__sub-a"><span>GIFT CERTIFICATES &#038;<BR/>COOKBOOK</span></a></li><li  id="menu-item-2665"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2665 awb-menu__li awb-menu__sub-li" ><a  href="https://kokkari.com/press/" class="awb-menu__sub-a"><span>PRESS</span></a></li><li  id="menu-item-2177"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2177 awb-menu__li awb-menu__sub-li" ><a  href="#contact" class="awb-menu__sub-a"><span>CONTACT</span></a></li></ul></li></ul></nav></div></div></div></div>
+</div>							
+			
+						<main id="main" class="clearfix width-100">
+				<div class="fusion-row" style="max-width:100%;">
+<section id="content" class="full-width">
+					<div id="post-2511" class="post-2511 page type-page status-publish has-post-thumbnail hentry">
+			<span class="entry-title rich-snippet-hidden">Menus</span><span class="vcard rich-snippet-hidden"><span class="fn"><a href="https://kokkari.com/author/kokkari/" title="Posts by kokkari" rel="author">kokkari</a></span></span><span class="updated rich-snippet-hidden">2025-03-17T14:27:06-07:00</span>						<div class="post-content">
+				<div class="fusion-fullwidth fullwidth-box fusion-builder-row-2 fusion-flex-container has-pattern-background has-mask-background faded-background fusion-parallax-fixed hundred-percent-fullwidth hundred-percent-height hundred-percent-height-center-content non-hundred-percent-height-scrolling lazyload" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-margin-top:0px;--awb-background-size:cover;--awb-flex-wrap:wrap;background-attachment:fixed;" data-bg="https://kokkari.com/wp-content/uploads/KO_246_Kokkari15099.jpg" ><div class="fullwidth-faded lazyload" style="--awb-background-parallax:fixed;--awb-background-size:cover;" data-bg="https://kokkari.com/wp-content/uploads/KO_246_Kokkari15099.jpg" ></div><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-end fusion-flex-justify-content-center fusion-flex-content-wrap" style="width:104% !important;max-width:104% !important;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-2 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-padding-bottom:30px;--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-end fusion-content-layout-column"><div class="fusion-text fusion-text-1 fusion-animated" data-animationType="fadeInUp" data-animationDuration="0.5" data-animationOffset="top-into-view"><h1 style="text-align: right;"><span class="bottom-right-page-title">MENUS</span></h1>
+</div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-3 fusion-flex-container has-pattern-background has-mask-background fusion-parallax-none nonhundred-percent-fullwidth non-hundred-percent-height-scrolling lazyload" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-background-color:rgba(255,255,255,0);--awb-background-size:cover;--awb-flex-wrap:wrap;" data-bg="https://kokkari.com/wp-content/uploads/seamlesstexture21_1200-cooler-1.jpg" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap" style="max-width:1248px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-3 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-padding-top:60px;--awb-padding-bottom:60px;--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-image-element " style="text-align:center;--awb-caption-title-font-family:var(--h2_typography-font-family);--awb-caption-title-font-weight:var(--h2_typography-font-weight);--awb-caption-title-font-style:var(--h2_typography-font-style);--awb-caption-title-size:var(--h2_typography-font-size);--awb-caption-title-transform:var(--h2_typography-text-transform);--awb-caption-title-line-height:var(--h2_typography-line-height);--awb-caption-title-letter-spacing:var(--h2_typography-letter-spacing);"><span class=" fusion-imageframe imageframe-none imageframe-2 hover-type-none"><img fetchpriority="high" decoding="async" width="200" height="348" title="Olive-branch1-2-100p-50o" src="https://kokkari.com/wp-content/uploads/Olive-branch1-2-100p-50o.png" data-orig-src="https://kokkari.com/wp-content/uploads/Olive-branch1-2-100p-50o-200x348.png" alt class="lazyload img-responsive wp-image-2467" srcset="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27474%27%20height%3D%27825%27%20viewBox%3D%270%200%20474%20825%27%3E%3Crect%20width%3D%27474%27%20height%3D%27825%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E" data-srcset="https://kokkari.com/wp-content/uploads/Olive-branch1-2-100p-50o-200x348.png 200w, https://kokkari.com/wp-content/uploads/Olive-branch1-2-100p-50o-400x696.png 400w, https://kokkari.com/wp-content/uploads/Olive-branch1-2-100p-50o.png 474w" data-sizes="auto" data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 800px) 100vw, 200px" /></span></div></div></div><div class="fusion-layout-column fusion_builder_column fusion-builder-column-4 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-padding-right-small:0px;--awb-padding-left-small:0px;--awb-bg-position:center center;--awb-bg-size:contain;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-column-has-bg-image" data-bg-url="https://kokkari.com/wp-content/uploads/Olive-branch1-100p-25o-r-1024x1021.png" data-bg="https://kokkari.com/wp-content/uploads/Olive-branch1-100p-25o-r-1024x1021.png"><div class="fusion-tabs fusion-tabs-1 classic nav-not-justified food-menus horizontal-tabs icon-position-left mobile-mode-carousel" style="--awb-margin-right-small:0px;--awb-margin-left-small:0px;--awb-title-border-radius-top-left:0px;--awb-title-border-radius-top-right:0px;--awb-title-border-radius-bottom-right:0px;--awb-title-border-radius-bottom-left:0px;--awb-content-padding-right-small:0px;--awb-content-padding-left-small:0px;--awb-title-padding-bottom:20px;--awb-title-font-size:44px;--awb-title-text-transform:uppercase;--awb-alignment:center;--awb-inactive-color:transparent;--awb-title-text-color:#06556e;--awb-title-active-text-color:#06556e;--awb-background-color:transparent;--awb-border-color:transparent;--awb-active-border-color:#06556e;--awb-title-font-family:&quot;Sofia Sans Condensed&quot;;--awb-title-font-style:normal;--awb-title-font-weight:400;"><div class="nav"><ul class="nav-tabs" role="tablist"><li class="active" role="presentation"><a class="tab-link" data-toggle="tab" role="tab" aria-controls="tab-1d8dce75dce5ed0f889" aria-selected="true" id="fusion-tab-lunch" href="#tab-1d8dce75dce5ed0f889"><h2 class="fusion-tab-heading">Lunch</h2></a></li><li role="presentation"><a class="tab-link" data-toggle="tab" role="tab" aria-controls="tab-149764abeb74876eac9" aria-selected="false" tabindex="-1" id="fusion-tab-dinner" href="#tab-149764abeb74876eac9"><h2 class="fusion-tab-heading">Dinner</h2></a></li><li role="presentation"><a class="tab-link" data-toggle="tab" role="tab" aria-controls="tab-0b93080285249cce179" aria-selected="false" tabindex="-1" id="fusion-tab-wine" href="#tab-0b93080285249cce179"><h2 class="fusion-tab-heading">Wine</h2></a></li><li role="presentation"><a class="tab-link" data-toggle="tab" role="tab" aria-controls="tab-11886b3303b2dfb33a0" aria-selected="false" tabindex="-1" id="fusion-tab-dessert" href="#tab-11886b3303b2dfb33a0"><h2 class="fusion-tab-heading">Dessert</h2></a></li></ul></div><div class="tab-content"><div class="tab-pane fade fusion-clearfix in active" role="tabpanel" tabindex="0" aria-labelledby="fusion-tab-lunch" id="tab-1d8dce75dce5ed0f889">
+<div data-post-id="2840" class="insert-page insert-page-2840 "><div class="fusion-fullwidth fullwidth-box fusion-builder-row-3-1 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-padding-top:40px;--awb-padding-right-small:0px;--awb-padding-left-small:0px;--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-justify-content-center fusion-flex-content-wrap" style="width:calc( 100% + 100px ) !important;max-width:calc( 100% + 100px ) !important;margin-left: calc(-100px / 2 );margin-right: calc(-100px / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-5 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:50px;--awb-margin-bottom-large:20px;--awb-spacing-left-large:50px;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:50px;--awb-spacing-left-medium:50px;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:50px;--awb-spacing-left-small:50px;"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-2"><p style="text-align: center; font-size: 30px; text-decoration: underline; text-underline-position: under;"><strong>Starters</strong></p>
+</div></div></div><div class="fusion-layout-column fusion_builder_column fusion-builder-column-6 fusion_builder_column_2_5 2_5 fusion-flex-column" style="--awb-padding-right-small:0px;--awb-padding-left-small:0px;--awb-bg-size:cover;--awb-width-large:40%;--awb-margin-top-large:0px;--awb-spacing-right-large:50px;--awb-margin-bottom-large:0px;--awb-spacing-left-large:50px;--awb-width-medium:40%;--awb-order-medium:0;--awb-spacing-right-medium:50px;--awb-spacing-left-medium:50px;--awb-width-small:75%;--awb-order-small:0;--awb-spacing-right-small:50px;--awb-spacing-left-small:50px;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-3"><p style="text-align: center;"><strong>Feta &amp; Olives</strong> – with Greek olive oil &amp; oregano 14.00</p>
+<p style="text-align: center;"><strong>Mapakia</strong> – wood oven-roasted Brussels sprouts with apple wood bacon &amp; lemon 16.00</p>
+<p style="text-align: center;"><strong>Beet Salad</strong> – roasted beets with skordalia, scallions &amp; dill 14.50</p>
+<p style="text-align: center;"><strong>Roasted Squash</strong> – wood oven roasted squash with spiced pistachio butter 15.25</p>
+<p style="text-align: center;"><strong>Zucchini Cakes</strong> – with cucumber &amp; mint-yogurt dressing 14.75</p>
+<p style="text-align: center;"><strong>Dolmathes</strong> – grape leaves stuffed with rice, dill &amp; mint 13.00</p>
+<p style="text-align: center;"><strong>Spanakotiropita</strong> – traditional filo pies of spinach, feta, leeks &amp; dill 13.00</p>
+<p style="text-align: center;"><strong>Gigantes</strong> – oven baked giant beans with tomato sauce, olive oil &amp; herbed feta 15.50</p>
+</div></div></div><div class="fusion-layout-column fusion_builder_column fusion-builder-column-7 fusion_builder_column_2_5 2_5 fusion-flex-column" style="--awb-padding-right-small:0px;--awb-padding-left-small:0px;--awb-bg-size:cover;--awb-width-large:40%;--awb-margin-top-large:0px;--awb-spacing-right-large:50px;--awb-margin-bottom-large:0px;--awb-spacing-left-large:50px;--awb-width-medium:40%;--awb-order-medium:0;--awb-spacing-right-medium:50px;--awb-spacing-left-medium:50px;--awb-width-small:75%;--awb-order-small:0;--awb-spacing-right-small:50px;--awb-spacing-left-small:50px;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-4"><p style="text-align: center;"><strong>Baked Feta</strong> – chili flake crusted with tomatoes &amp; Kalamata olives 16.75</p>
+<p style="text-align: center;"><strong>Roasted Prawns</strong> – chili-garlic roasted wild Gulf prawns 20.75</p>
+<p style="text-align: center;"><strong>Grilled Octopus</strong> – with lemon, oregano &amp; olive oil 20.75</p>
+<p style="text-align: center;"><strong>Grilled Calamari</strong> – stuffed with feta &amp; herbs fennel, orange with black olives 16.00</p>
+<p style="text-align: center;"><strong>Fried Smelts</strong> – with garlic-potato skordalia &amp; lemon 15.00</p>
+<p style="text-align: center;"><strong>Saghanaki</strong> – pan fried Kefalotyri with lemon &amp; oregano 19.25</p>
+<p style="text-align: center;"><strong>Grilled Lamb Riblets</strong> – with lemon &amp; oregano 21.50</p>
+<p style="text-align: center;"><strong>Lamb Meatballs</strong> – grilled with spiced tomato sauce &amp; Greek yogurt 19.25</p>
+</div></div></div><div class="fusion-layout-column fusion_builder_column fusion-builder-column-8 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:20px;--awb-spacing-right-large:50px;--awb-margin-bottom-large:20px;--awb-spacing-left-large:50px;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:50px;--awb-spacing-left-medium:50px;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:50px;--awb-spacing-left-small:50px;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-5"><p style="text-align: center;"><strong>Melitzanosalata, Taramosalata, Tzatziki, Favosalata, Skordalia or Tirokafteri</strong><br />
+with housemade grilled pita 12.75 each</p>
+</div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-3-2 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-padding-top:40px;--awb-padding-right-small:0px;--awb-padding-left-small:0px;--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-justify-content-center fusion-flex-content-wrap" style="width:104% !important;max-width:104% !important;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-9 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:1.92%;--awb-width-medium:80%;--awb-order-medium:0;--awb-spacing-right-medium:2.4%;--awb-spacing-left-medium:2.4%;--awb-width-small:80%;--awb-order-small:0;--awb-spacing-right-small:2.4%;--awb-spacing-left-small:2.4%;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-6"><p style="text-align: center; font-size: 30px; text-decoration: underline; text-underline-position: under;"><strong>Soup &amp; Salads</strong></p>
+</div><div class="fusion-text fusion-text-7"><p style="text-align: center;"><strong>Avgolemono</strong> – traditional egg-lemon soup with chicken &amp; rice 13.75<br />
+<strong>Fakes</strong> – lentil &amp; vegetable soup with braised greens 12.75<br />
+<strong>Greek Salad</strong> – of tomato, cucumber, bell pepper, red onion, Feta, oregano &amp; olives 17.50 / entrée 28.75<br />
+<strong>Maroulosalata</strong> – chopped romaine lettuce, radicchio, toasted pine nuts with Kalamata &amp; feta dressing 16.75<br />
+<strong>Kokkari Salad</strong> – chicory, apples, shallots, candied walnuts, kefalotyri &amp; apple cider yogurt dressing 16.75</p>
+</div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-3-3 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-padding-top:40px;--awb-padding-right-small:0px;--awb-padding-left-small:0px;--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-justify-content-center fusion-flex-content-wrap" style="width:104% !important;max-width:104% !important;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-10 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:1.92%;--awb-width-medium:80%;--awb-order-medium:0;--awb-spacing-right-medium:2.4%;--awb-spacing-left-medium:2.4%;--awb-width-small:80%;--awb-order-small:0;--awb-spacing-right-small:2.4%;--awb-spacing-left-small:2.4%;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-8"><p style="text-align: center; font-size: 30px; text-decoration: underline; text-underline-position: under;"><strong>Entrées</strong></p>
+</div><div class="fusion-text fusion-text-9"><p style="text-align: center;"><strong>Whole Fish</strong> – traditionally grilled whole fish with braised greens &amp; lemon<br />
+<em><strong>Lavraki</strong></em> Mediterranean Sea bass 55.00 ~ <em><strong>Glosa</strong></em> local Petrale Sole 49.75 ~ <em><strong>Tsipura</strong></em> Mediterranean Sea bream 52.75</p>
+<p style="text-align: center;"><strong>Ravioli</strong> – of ricotta, roasted pumpkin &amp; feta with kale, mushrooms, onions &amp; kefalotyri nage 30.75<br />
+<strong>Artichoke Souvlaki</strong> – grilled artichokes, peppers &amp; onion with kale tabouli salad, Greek yogurt &amp; pita 29.25<br />
+<strong>Octopus Salad</strong> – charcoal-grilled octopus, Greek peppers, frisée &amp; red wine vinaigrette 29.00<br />
+<strong>Halibut</strong> – fillet pan roasted with braised lentils, broccolini &amp; chili flake with olive tapenade 44.25<br />
+<strong>Chicken Souvlaki – </strong>yogurt marinated with peppers &amp; onion, cucumber tomato salad, tzatziki &amp; potatoes 30.50<br />
+<strong>Grilled Lamb Chops</strong> – with lemon-oregano vinaigrette &amp; Kokkari potatoes 49.75<br />
+<strong>Lamb Souvlaki</strong> – grilled spiced sirloin skewer with cucumber, tomato salad, tzatziki &amp; Kokkari potatoes 48.00<br />
+<strong>Moussaka</strong> – baked casserole of spiced lamb &amp; beef, eggplant, potato &amp; yogurt béchamel 35.00</p>
+</div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-3-4 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-padding-top:40px;--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-justify-content-center fusion-flex-content-wrap" style="width:104% !important;max-width:104% !important;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-11 fusion_builder_column_3_4 3_4 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:75%;--awb-margin-top-large:0px;--awb-spacing-right-large:2.56%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:2.56%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-10"><p style="text-align: center; font-size: 0.7em;">Consuming raw or undercooked meats, poultry, seafood, shellfish or eggs may increase your risk of foodborne illness A 6% surcharge is added to all guest checks in support of San Francisco Employee Ordinances such as Healthy SF</p>
+</div></div></div></div></div>
+</div>
+</div><div class="tab-pane fade fusion-clearfix" role="tabpanel" tabindex="0" aria-labelledby="fusion-tab-dinner" id="tab-149764abeb74876eac9"><div data-post-id="2823" class="insert-page insert-page-2823 "><div class="fusion-fullwidth fullwidth-box fusion-builder-row-3-5 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-padding-top:40px;--awb-padding-right-small:0px;--awb-padding-left-small:0px;--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-justify-content-center fusion-flex-content-wrap" style="width:calc( 100% + 100px ) !important;max-width:calc( 100% + 100px ) !important;margin-left: calc(-100px / 2 );margin-right: calc(-100px / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-12 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:50px;--awb-margin-bottom-large:20px;--awb-spacing-left-large:50px;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:50px;--awb-spacing-left-medium:50px;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:50px;--awb-spacing-left-small:50px;"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-11"><p style="text-align: center; font-size: 30px; text-decoration: underline; text-underline-position: under;"><strong>Mezethes</strong></p>
+</div></div></div><div class="fusion-layout-column fusion_builder_column fusion-builder-column-13 fusion_builder_column_2_5 2_5 fusion-flex-column" style="--awb-padding-right-small:0px;--awb-padding-left-small:0px;--awb-bg-size:cover;--awb-width-large:40%;--awb-margin-top-large:0px;--awb-spacing-right-large:50px;--awb-margin-bottom-large:0px;--awb-spacing-left-large:50px;--awb-width-medium:40%;--awb-order-medium:0;--awb-spacing-right-medium:50px;--awb-spacing-left-medium:50px;--awb-width-small:75%;--awb-order-small:0;--awb-spacing-right-small:50px;--awb-spacing-left-small:50px;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-12"><p style="text-align: center;"><strong>Pantzaria</strong> &#8211; roasted beets with skordalia, scallions &amp; dill 14.50</p>
+<p style="text-align: center;"><strong>Kolokythi</strong> &#8211; roasted squash with spiced pistachio butter 15.25</p>
+<p style="text-align: center;"><strong>Mapakia</strong> – wood oven-roasted Brussels sprouts with apple wood bacon &amp; lemon 16.00</p>
+<p style="text-align: center;"><strong>Dolmathes</strong> &#8211; grape leaves stuffed with rice, dill &amp; mint 13.00</p>
+<p style="text-align: center;"><strong>Spanakotiropita</strong> &#8211; traditional filo pies of spinach, Feta, leeks &amp; dill 13.00</p>
+<p style="text-align: center;"><strong>Aginares Souvlaki</strong> &#8211; grilled artichoke, bell pepper &amp; red onion skewer with Greek yogurt 20.25</p>
+<p style="text-align: center;"><strong>Gigantes</strong> &#8211; oven-baked giant beans with tomato sauce, olive oil &amp; herbed Feta 15.50</p>
+<p style="text-align: center;"><strong>Kolokithokeftethes</strong> &#8211; crispy zucchini cakes with cucumber &amp; mint-yogurt dressing 14.75</p>
+</div></div></div><div class="fusion-layout-column fusion_builder_column fusion-builder-column-14 fusion_builder_column_2_5 2_5 fusion-flex-column" style="--awb-padding-right-small:0px;--awb-padding-left-small:0px;--awb-bg-size:cover;--awb-width-large:40%;--awb-margin-top-large:0px;--awb-spacing-right-large:50px;--awb-margin-bottom-large:0px;--awb-spacing-left-large:50px;--awb-width-medium:40%;--awb-order-medium:0;--awb-spacing-right-medium:50px;--awb-spacing-left-medium:50px;--awb-width-small:75%;--awb-order-small:0;--awb-spacing-right-small:50px;--awb-spacing-left-small:50px;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-13"><p style="text-align: center;"><strong>Feta tou fournou</strong> – baked Feta chili flake crusted with cherry tomatoes &amp; Kalamata olives 16.75</p>
+<p style="text-align: center;"><strong>Saghanaki</strong> &#8211; pan fried Kefalotyri cheese with lemon &amp; oregano 19.25</p>
+<p style="text-align: center;"><strong>Octapodaki tou Yiorgou</strong> &#8211; grilled octopus with lemon, oregano &amp; olive oil 20.75</p>
+<p style="text-align: center;"><strong>Kalamari</strong> &#8211; grilled calamari stuffed with Feta, fennel, orange with black olives 16.00</p>
+<p style="text-align: center;"><strong>Marithes Tiganites</strong> &#8211; crispy smelts with garlic-potato-almond skordalia &amp; lemon 15.00</p>
+<p style="text-align: center;"><strong>Garides Skordates</strong> &#8211; wood-oven chili garlic roasted wild Gulf prawns 20.75</p>
+<p style="text-align: center;"><strong>Arnisia Plevrakia</strong> &#8211; grilled lamb riblets with lemon &amp; oregano 21.50</p>
+<p style="text-align: center;"><strong>Soutzoukakia</strong> &#8211; grilled lamb meatballs with spiced tomato sauce &amp; Greek yogurt 19.25</p>
+</div></div></div><div class="fusion-layout-column fusion_builder_column fusion-builder-column-15 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:20px;--awb-spacing-right-large:50px;--awb-margin-bottom-large:20px;--awb-spacing-left-large:50px;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:50px;--awb-spacing-left-medium:50px;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:50px;--awb-spacing-left-small:50px;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-14"><p style="text-align: center;"><strong>Melitzanosalata, Taramosalata, Tzatziki, Favasalata, Skordalia or Tirokafteri</strong><br />
+Served with housemade grilled pita &amp; pickles 12.75 each</p>
+</div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-3-6 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-padding-top:40px;--awb-padding-right-small:0px;--awb-padding-left-small:0px;--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-justify-content-center fusion-flex-content-wrap" style="width:104% !important;max-width:104% !important;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-16 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:1.92%;--awb-width-medium:80%;--awb-order-medium:0;--awb-spacing-right-medium:2.4%;--awb-spacing-left-medium:2.4%;--awb-width-small:80%;--awb-order-small:0;--awb-spacing-right-small:2.4%;--awb-spacing-left-small:2.4%;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-15"><p style="text-align: center; font-size: 30px; text-decoration: underline; text-underline-position: under;"><strong>Soupes &amp; Salates </strong></p>
+</div><div class="fusion-text fusion-text-16"><p style="text-align: center;"><strong>Avgolemono</strong> &#8211; traditional egg-lemon soup with chicken &amp; rice 13.75<br />
+<strong>Fakes</strong> – lentil &amp; vegetable soup with braised greens 12.75<br />
+<strong>Horiatiki</strong> &#8211; classic Greek salad of tomato, cucumber, bell pepper, onion, oregano, olives &amp; feta 17.50<br />
+<strong>Maroulosalata</strong> – chopped romaine lettuce, radicchio, toasted pine nuts with Kalamata &amp; feta dressing 16.75<br />
+<strong>Kokkari Salad</strong> – chicory, apples, shallots, candied walnuts, kefalotyri &amp; apple cider yogurt dressing 16.75</p>
+</div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-3-7 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-padding-top:40px;--awb-padding-right-small:0px;--awb-padding-left-small:0px;--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-justify-content-center fusion-flex-content-wrap" style="width:104% !important;max-width:104% !important;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-17 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:1.92%;--awb-width-medium:80%;--awb-order-medium:0;--awb-spacing-right-medium:2.4%;--awb-spacing-left-medium:2.4%;--awb-width-small:80%;--awb-order-small:0;--awb-spacing-right-small:2.4%;--awb-spacing-left-small:2.4%;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-17"><p style="text-align: center; font-size: 30px; text-decoration: underline; text-underline-position: under;"><strong>Kirios Piato</strong></p>
+</div><div class="fusion-text fusion-text-18"><p style="text-align: center;"><strong>Simerina Psaria</strong> ~ today’s whole fish<br />
+<strong>Lavraki</strong> Mediterranean Sea bass 55.00 ~ <strong>Glosa</strong> local Petrale sole 49.75 ~ <strong>Tsipura</strong> Mediterranean Sea bream 52.75</p>
+<p style="text-align: center;"><strong>Psari Psito</strong> &#8211; traditional grilled whole fish with horta &amp; lemon AQ<br />
+<strong>Psari sto Fourno</strong> – wood-oven roasted whole fish with potatoes, tomatoes, onions, fennel, olives AQ<br />
+<strong>Ippoglossa</strong> – halibut fillet pan roasted with braised lentils, broccolini &amp; chili flake with olive tapenade 44.25<br />
+<strong>Makaronia</strong> – ravioli of ricotta, roasted pumpkin &amp; feta with kale, mushrooms, onions &amp; kefalotyri nage 30.75<br />
+<strong>Kotopoulo Souvlas</strong> &#8211; lemon-oregano roasted chicken with Briami, Kokkari potatoes &amp; cilantro yogurt 36.00<br />
+<strong>Moussaka</strong> &#8211; traditional baked casserole of spiced lamb &amp; beef, eggplant, potato &amp; yogurt béchamel 35.00<br />
+<strong>Kokinisto me Manestra</strong> &#8211; aromatic braised lamb shank with orzo &amp; Mizithra cheese 49.00<br />
+<strong>Arnisia Paidakia</strong> &#8211; grilled lamb chops with lemon-oregano vinaigrette &amp; Kokkari potatoes 69.00<br />
+<strong>Arnisio Souvlaki</strong> &#8211; spiced lamb skewer grilled with cucumber, tomato salad, tzatziki &amp; potatoes 52.75<br />
+<strong>Mosharisia Brizola</strong> – charcoal grilled dry-aged rib-eye with braised greens &amp; Kokkari potatoes 71.00<br />
+<strong>Katsikaki Stifádo</strong> – stewed goat baked with orzo, artichoke &amp; Feta 56.25</p>
+</div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-3-8 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-padding-top:40px;--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-justify-content-center fusion-flex-content-wrap" style="width:104% !important;max-width:104% !important;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-18 fusion_builder_column_3_4 3_4 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:75%;--awb-margin-top-large:0px;--awb-spacing-right-large:2.56%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:2.56%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-19"><p style="text-align: center; font-size: 0.7em;">Consuming raw or undercooked meats, poultry, seafood, shellfish or eggs may increase your risk of foodborne illness A 6% surcharge is added to all guest checks in support of San Francisco Employee Ordinances such as Healthy SF</p>
+</div></div></div></div></div>
+</div></div><div class="tab-pane fade fusion-clearfix" role="tabpanel" tabindex="0" aria-labelledby="fusion-tab-wine" id="tab-0b93080285249cce179"><span style="font-size: .8em;"><div data-post-id="2842" class="insert-page insert-page-2842 "><div class="fusion-fullwidth fullwidth-box fusion-builder-row-3-9 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap" style="width:104% !important;max-width:104% !important;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-19 fusion_builder_column_1_2 1_2 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:3.84%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:3.84%;--awb-width-medium:75%;--awb-order-medium:0;--awb-spacing-right-medium:2.56%;--awb-spacing-left-medium:2.56%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-20"><table width="100%">
+<tbody>
+<tr>
+<td width="95%"><strong>Sparkling &amp; White Wines By The Glass</strong></td>
+<td width="5%"></td>
+</tr>
+<tr>
+<td>Avinyó, Petillant Blanc, Vi d&#8221;agulla, Penedes &#8217;23</td>
+<td>16</td>
+</tr>
+<tr>
+<td>Andreola, Col del forno Prosecco, Valdobbiadene &#8217;21</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Roederer Estate, Brut, Anderson Valley nv</td>
+<td>18</td>
+</tr>
+<tr>
+<td>Laurent-Perrier, La Cuvée Brut, Tours-Sur-Marne nv</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Hatziyiannis, Assyrtiko, Santorini &#8217;23</td>
+<td>22</td>
+</tr>
+<tr>
+<td>Troupis, Fteri Moscofilero, Peloponnese &#8217;20</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Bründlmayer, L&amp;T Grüner Veltliner, Kamptal &#8217;23</td>
+<td>16</td>
+</tr>
+<tr>
+<td>Astrolabe, Pinot Gris, Marlborough &#8217;23</td>
+<td>13</td>
+</tr>
+<tr>
+<td>Sean Thackery, Pleadies Viognier, California &#8217;23</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Duckhorn, Sauvignon Blanc, North Coast &#8217;23</td>
+<td>16</td>
+</tr>
+<tr>
+<td>Private Property, Chardonnay, Santa Lucia-Monterey &#8217;21</td>
+<td>18</td>
+</tr>
+<tr>
+<td>Domaine Jean Dauvissat, Chablis &#8217;22</td>
+<td>20</td>
+</tr>
+</tbody>
+</table>
+</div></div></div><div class="fusion-layout-column fusion_builder_column fusion-builder-column-20 fusion_builder_column_1_2 1_2 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:3.84%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:3.84%;--awb-width-medium:75%;--awb-order-medium:0;--awb-spacing-right-medium:2.56%;--awb-spacing-left-medium:2.56%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-21"><table width="100%">
+<tbody>
+<tr>
+<td width="95%"><strong>Sparkling Rosé, Rosé &amp; Red Wines By The Glass</strong></td>
+<td width="5%"></td>
+</tr>
+<tr>
+<td>Raventós I Blanc, Brut Rosè, Conca del Riu Anoia &#8217;21</td>
+<td>22</td>
+</tr>
+<tr>
+<td>Troupis, Rosé of Moschofilero, Arcadia &#8217;21</td>
+<td>14</td>
+</tr>
+<tr>
+<td>H &amp; B, Coteaux d&#8217;aix en provence Rosè &#8217;23</td>
+<td>16</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Thymiopoulos, Xinomavro, Naoussa &#8217;20</td>
+<td>17</td>
+</tr>
+<tr>
+<td>Karavitakis, Kompsos Liatiko, Chania-Crete &#8217;21</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Oakwild Ranch, Toboni Pinot Noir, Russian River &#8217;20</td>
+<td>18</td>
+</tr>
+<tr>
+<td>Jean Foillard, Beaujolais-Villages &#8217;22</td>
+<td>16</td>
+</tr>
+<tr>
+<td>San Silvestro, &#8216;Patres&#8217; Barolo &#8217;19</td>
+<td>26</td>
+</tr>
+<tr>
+<td>Domaine Eden, Cabernet Sauvignon, Sta Cruz Mtns &#8217;19</td>
+<td>22</td>
+</tr>
+<tr>
+<td>Limerick Lane, Zinfandel, Russian River &#8217;21</td>
+<td>18</td>
+</tr>
+<tr>
+<td>Thalvin-Graillot, Syrocco Syrah, Zenata-Morocco &#8217;21</td>
+<td>18</td>
+</tr>
+</tbody>
+</table>
+</div></div></div><div class="fusion-layout-column fusion_builder_column fusion-builder-column-21 fusion_builder_column_1_2 1_2 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:3.84%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:3.84%;--awb-width-medium:75%;--awb-order-medium:0;--awb-spacing-right-medium:2.56%;--awb-spacing-left-medium:2.56%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-22"><table width="100%">
+<tbody>
+<tr>
+<td width="95%"><strong>Sparkling Wine</strong></td>
+<td width="5%"></td>
+</tr>
+<tr>
+<td>Angels &amp; Cowboys, Méthode Traditionnelle Brut, Cali. nv</td>
+<td>80</td>
+</tr>
+<tr>
+<td>Schramsberg, Blanc de Blanc, North Coast &#8217;21</td>
+<td>115</td>
+</tr>
+<tr>
+<td>Raventós I Blanc, Brut Rosè, Conca del Riu Anoia &#8217;21</td>
+<td>110</td>
+</tr>
+<tr>
+<td>Elk Cove, La Boheme Brut Rosé, Yamhill-Carlton &#8217;17</td>
+<td>110</td>
+</tr>
+<tr>
+<td>Terrevive, Stilolrosso Frizzante, Emilia-Romagna nv</td>
+<td>85</td>
+</tr>
+<tr>
+<td>Andreola, Col del forno Prosecco, Valdobbiadene &#8217;22</td>
+<td>75</td>
+</tr>
+<tr>
+<td>Gusbourne, Brut Reserve, England &#8217;19</td>
+<td>125</td>
+</tr>
+</tbody>
+</table>
+</div></div></div><div class="fusion-layout-column fusion_builder_column fusion-builder-column-22 fusion_builder_column_1_2 1_2 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:50%;--awb-margin-top-large:20px;--awb-spacing-right-large:3.84%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:3.84%;--awb-width-medium:75%;--awb-order-medium:0;--awb-margin-top-medium:0;--awb-spacing-right-medium:2.56%;--awb-spacing-left-medium:2.56%;--awb-width-small:100%;--awb-order-small:0;--awb-margin-top-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-23"><table width="100%">
+<tbody>
+<tr>
+<td width="95%"></td>
+<td width="5%"></td>
+</tr>
+<tr>
+<td>Sanger, Voyage 360, Brut Nature Champagne, nv</td>
+<td>145</td>
+</tr>
+<tr>
+<td>Marguet, &#8216;Yuman&#8217; Brut Nature &#8217;18</td>
+<td>155</td>
+</tr>
+<tr>
+<td>Pierre Paillard, Grand Cru Les Parcelles, Bouzy &#8217;18</td>
+<td>155</td>
+</tr>
+<tr>
+<td>Pol Roger, Brut Réserve, Epernay nv</td>
+<td>125</td>
+</tr>
+<tr>
+<td>Petit &amp; Bajan, &#8216;Nymphea&#8217; Brut Rose, a Avize nv</td>
+<td>145</td>
+</tr>
+<tr>
+<td>Laurent-Perrier, La Cuvée Brut, Tours-Sur-Marne nv</td>
+<td>150</td>
+</tr>
+<tr>
+<td>Henriot, Rosé, Reims nv</td>
+<td>140</td>
+</tr>
+</tbody>
+</table>
+</div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-3-10 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-justify-content-center fusion-flex-content-wrap" style="width:104% !important;max-width:104% !important;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-23 fusion_builder_column_1_2 1_2 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:3.84%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:3.84%;--awb-width-medium:75%;--awb-order-medium:0;--awb-spacing-right-medium:2.56%;--awb-spacing-left-medium:2.56%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-24"><table width="100%">
+<tbody>
+<tr>
+<td width="95%"><strong>Old World Rosé and White Wine </strong></td>
+<td width="5%"></td>
+</tr>
+<tr>
+<td>Ronco Severo, Ramato, Friuli Colli Orientali &#8217;18</td>
+<td>80</td>
+</tr>
+<tr>
+<td>Gai&#8217;a, Ritinitis Nobilis, Aigialeia Retsina nv</td>
+<td>53</td>
+</tr>
+<tr>
+<td>Zafeirakis, Foothills Chardonnay, Tyrnavos &#8217;22</td>
+<td>65</td>
+</tr>
+<tr>
+<td>Anatolikos, &#8216;Fine&#8217; Assyrtiko, Avdira, Xanthi, Thrace &#8217;21</td>
+<td>77</td>
+</tr>
+<tr>
+<td>Troupis, Fteri Moscofilero, Peloponnese &#8217;20</td>
+<td>48</td>
+</tr>
+<tr>
+<td>Gerovassiliou, Malagousia, Epanomi &#8217;22</td>
+<td>83</td>
+</tr>
+<tr>
+<td>Nicoluzo, Cacotrigi, Corfu &#8217;21</td>
+<td>85</td>
+</tr>
+<tr>
+<td>Gavalas, &#8216;Natural Ferment&#8217;, Santorini &#8217;21</td>
+<td>120</td>
+</tr>
+<tr>
+<td>Argyros, Assyrtiko, Santorini &#8217;22</td>
+<td>140</td>
+</tr>
+<tr>
+<td>Manousakis, Nostos Vidiano, Chania &#8217;22</td>
+<td>70</td>
+</tr>
+<tr>
+<td>Tsantalis,  Agioritikos, Mt Athos &#8217;21</td>
+<td>59</td>
+</tr>
+<tr>
+<td>Iliana Malihin, Rhea Old Vines Vidiano, Rethymno &#8217;21</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Domaine Gilet, Cuvée Silex Sec, Vouvray &#8217;22</td>
+<td>52</td>
+</tr>
+<tr>
+<td>Gérard Boulay, àChavignol, Sancerre &#8217;23</td>
+<td>90</td>
+</tr>
+<tr>
+<td>Clos du Tue-Bœuf, Frileuse Cheverny, Loire &#8217;22</td>
+<td>75</td>
+</tr>
+<tr>
+<td>PierreYves ColinMorey, Bout du Monde, Bourgogne &#8217;21</td>
+<td>125</td>
+</tr>
+<tr>
+<td>Domaine Jean Dauvissat, Chablis &#8217;22</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Xavier Gérard, Viognier, Collines Rohodaniennes &#8217;20</td>
+<td>70</td>
+</tr>
+<tr>
+<td>Kofererhof, Kerner, Alto Adige &#8217;22</td>
+<td>67</td>
+</tr>
+<tr>
+<td>Zuani, Ribolla Gialla, Sodevo &#8211; Collio &#8217;21</td>
+<td>48</td>
+</tr>
+<tr>
+<td>Michael-Eppan, St. Valentin Sauvignon, Alto Adige &#8217;21</td>
+<td>93</td>
+</tr>
+<tr>
+<td>Tenuta Tascante, Buonora, Etna Bianco &#8217;22</td>
+<td>64</td>
+</tr>
+<tr>
+<td>Gini, La Froscà, Soave Classico &#8217;19</td>
+<td>62</td>
+</tr>
+<tr>
+<td>Benito Ferrara, Terra d&#8217;Uva, Greco di Tufo &#8217;22</td>
+<td>65</td>
+</tr>
+<tr>
+<td>Planeta, Eruzione 1614 Carricante, Sicily &#8217;18</td>
+<td>90</td>
+</tr>
+<tr>
+<td>Leirana, Albariño, Rias Baixas &#8217;22</td>
+<td>82</td>
+</tr>
+<tr>
+<td>Costers del Priorat, Blanc de Pissarres, Priorat &#8217;21</td>
+<td>85</td>
+</tr>
+</tbody>
+</table>
+</div></div></div><div class="fusion-layout-column fusion_builder_column fusion-builder-column-24 fusion_builder_column_1_2 1_2 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:3.84%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:3.84%;--awb-width-medium:75%;--awb-order-medium:0;--awb-spacing-right-medium:2.56%;--awb-spacing-left-medium:2.56%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-25"><table width="100%">
+<tbody>
+<tr>
+<td width="95%"><strong>New World Rosé and White Wine </strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Robert Sinskey, Orgia, Los Carneros &#8217;17</td>
+<td>95</td>
+</tr>
+<tr>
+<td>Trisaetum, Coast Range Riesling, Yamhill-Carlton &#8217;21</td>
+<td>65</td>
+</tr>
+<tr>
+<td>Cobb, Vonarburg Riesling, Anderson Valley &#8217;18</td>
+<td>110</td>
+</tr>
+<tr>
+<td>The Eyrie Vineyards, Pinot Gris, Oregon &#8217;22</td>
+<td>62</td>
+</tr>
+<tr>
+<td>Cadre, Sea Queen Albariño, Edna Valley &#8217;22</td>
+<td>55</td>
+</tr>
+<tr>
+<td>Goldeneye, Confluence Randolf blk. Gewürztraminer &#8217;21</td>
+<td>81</td>
+</tr>
+<tr>
+<td>Sean Thackery, Pleadies Viognier, California &#8217;23</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Starlite, Viognier, Alexander/Sonoma Vlys. &#8217;22</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Miner, Viognier, Paso Robles &#8217;20</td>
+<td>55</td>
+</tr>
+<tr>
+<td>Matthiason, Bengier Ribolla Gialla, Napa Valley &#8217;20</td>
+<td>110</td>
+</tr>
+<tr>
+<td>Brij, Assyrtiko, Lodi &#8217;22</td>
+<td>68</td>
+</tr>
+<tr>
+<td>Boutz Cellars, Assyrtiko, Adelaida- Paso Robles &#8217;23</td>
+<td>75</td>
+</tr>
+<tr>
+<td>Cordant, Resolution, Paso Robles &#8217;21</td>
+<td>110</td>
+</tr>
+<tr>
+<td>Merry Edwards, Sauvignon Blanc, Russian River &#8217;22</td>
+<td>63</td>
+</tr>
+<tr>
+<td>Illumination, Sauvignon Blanc, Napa/Sonoma &#8217;22</td>
+<td>95</td>
+</tr>
+<tr>
+<td>Groth, Estate Sauvignon Blanc, Oakville &#8217;22</td>
+<td>105</td>
+</tr>
+<tr>
+<td>Cade, Sauvignon Blanc, Napa Valley &#8217;23</td>
+<td>71</td>
+</tr>
+<tr>
+<td>Astrolabe, Sauvignon Blanc, Marlborough &#8217;23</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Tendril, Enchanter Chardonnay, Willamette Valley, &#8217;19</td>
+<td>82</td>
+</tr>
+<tr>
+<td>Drew, Bahl Briney Chardonnay, Anderson Valley &#8217;22</td>
+<td>80</td>
+</tr>
+<tr>
+<td>Flowers, Chardonnay, Sonoma Coast &#8217;22</td>
+<td>120</td>
+</tr>
+<tr>
+<td>Walt, Chardonnay, Sonoma Coast &#8217;20</td>
+<td>59</td>
+</tr>
+<tr>
+<td>Ramey, Chardonnay, Russian River Valley &#8217;22</td>
+<td>73</td>
+</tr>
+<tr>
+<td>Lioco, Estero Chardonnay, Russian River &#8217;21</td>
+<td>110</td>
+</tr>
+<tr>
+<td>Padis, Chardonnay, Carneros &#8217;18</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Obsidian Wine Co., Poseidon Chard, Carneros &#8217;22</td>
+<td>53</td>
+</tr>
+<tr>
+<td>Liquid Farm, La Hermana Chardonnay, Santa Maria &#8217;22</td>
+<td>73</td>
+</tr>
+</tbody>
+</table>
+</div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-3-11 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap" style="width:104% !important;max-width:104% !important;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-25 fusion_builder_column_1_2 1_2 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:3.84%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:3.84%;--awb-width-medium:75%;--awb-order-medium:0;--awb-spacing-right-medium:2.56%;--awb-spacing-left-medium:2.56%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-26"><table width="100%">
+<tbody>
+<tr>
+<td width="95%"><strong>Old World Red Wine</strong></td>
+<td width="43"></td>
+</tr>
+<tr>
+<td>Glinavos, Vlahiko Red, Ioannina &#8217;18</td>
+<td>63</td>
+</tr>
+<tr>
+<td>Alpha Estate, SMX, Amyndeon &#8217;20</td>
+<td>80</td>
+</tr>
+<tr>
+<td>Anatolikos, Fine Mavroudi, Avdira, Xanthi, Thrace &#8217;17</td>
+<td>95</td>
+</tr>
+<tr>
+<td>Oenops, &#8216;Xinomavraw&#8217;, Prosotsani-Drama &#8217;20</td>
+<td>77</td>
+</tr>
+<tr>
+<td>Skouras, Megas Oenos, Peloponnese &#8217;19</td>
+<td>90</td>
+</tr>
+<tr>
+<td>Costa Lazaridi, Amethystos Cava, Drama &#8217;20</td>
+<td>135</td>
+</tr>
+<tr>
+<td>Thymiopoulos, Xinomavro, Naoussa &#8217;20</td>
+<td>68</td>
+</tr>
+<tr>
+<td>Tsantalis, Reserve, Rapsani &#8217;16</td>
+<td>85</td>
+</tr>
+<tr>
+<td>Domaine Mercouri, Refosco, Korakochori Ilias &#8217;19</td>
+<td>67</td>
+</tr>
+<tr>
+<td>Ktima Driopi, Agiorgitiko, Nemea &#8217;20</td>
+<td>59</td>
+</tr>
+<tr>
+<td>Gaia Estate, Koutsi Agiorgitiko, Nemea &#8217;20</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Spiropoulos, Porfyros Red, Peloponnese &#8217;17</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Gentilini, Eclipse Mavrodaphne, Cephalonia &#8217;17</td>
+<td>85</td>
+</tr>
+<tr>
+<td>Domaine Sigalas, Mandilaria/Mavrotragano, Cyclades &#8217;22</td>
+<td>68</td>
+</tr>
+<tr>
+<td>Domaine Besson, Givry 1er Cru Les Grands Prétans &#8217;22</td>
+<td>103</td>
+</tr>
+<tr>
+<td>Jean-Paul Dubost, &#8216;Vieilles Vignes&#8217; Brouilly &#8217;20</td>
+<td>67</td>
+</tr>
+<tr>
+<td>Château Greysac, Cru Bourgeois Médoc &#8217;18</td>
+<td>85</td>
+</tr>
+<tr>
+<td>Château Larruau, Margaux &#8217;17</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Jean Foillard, Beaujolais-Villages &#8217;22</td>
+<td>74</td>
+</tr>
+<tr>
+<td>Faury, Vieilles Vignes, Saint Joseph &#8217;20</td>
+<td>120</td>
+</tr>
+<tr>
+<td>R&amp;M Saouma, Inopia, Côtes du Rhône Villages &#8217;16</td>
+<td>56</td>
+</tr>
+<tr>
+<td>Domaine de Terrebrune, Bandol &#8217;19</td>
+<td>91</td>
+</tr>
+<tr>
+<td>Fontanafredda, &#8216;Ebbio&#8217; Nebbiolo, Langhe &#8217;21</td>
+<td>90</td>
+</tr>
+<tr>
+<td>Trediberri, Barbera D&#8217;Alba &#8217;23</td>
+<td>120</td>
+</tr>
+<tr>
+<td>De Forville, Loreto, Barbaresco &#8217;20</td>
+<td>95</td>
+</tr>
+<tr>
+<td>Pira, Serralunga d&#8217;Alba, Barolo &#8217;18</td>
+<td>120</td>
+</tr>
+<tr>
+<td>San Silvestro, &#8216;Patres&#8217; Barolo &#8217;19</td>
+<td>104</td>
+</tr>
+<tr>
+<td>Col d&#8217;Orcia, Brunello di Montalcino &#8217;18</td>
+<td>110</td>
+</tr>
+<tr>
+<td>Monsanto, Riserva, Chianti Classico &#8217;19</td>
+<td>71</td>
+</tr>
+<tr>
+<td>I Custodi, Ætneus, Etna Rosso &#8217;17</td>
+<td>104</td>
+</tr>
+<tr>
+<td>Molettieri, Vigna Cinque Querce, Taurasi &#8217;15</td>
+<td>120</td>
+</tr>
+<tr>
+<td>Clos Bartolomé, Priorat &#8217;20</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Alto Moncayo, Garnacha, Borja &#8217;19</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Pegaso, Sierra de Gredos &#8216;Zeta&#8217;, Avila &#8217;20</td>
+<td>70</td>
+</tr>
+</tbody>
+</table>
+</div></div></div><div class="fusion-layout-column fusion_builder_column fusion-builder-column-26 fusion_builder_column_1_2 1_2 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:3.84%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:3.84%;--awb-width-medium:75%;--awb-order-medium:0;--awb-spacing-right-medium:2.56%;--awb-spacing-left-medium:2.56%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-27"><table width="100%">
+<tbody>
+<tr>
+<td width="95%"><strong>New World Red Wine</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Ken Wright Cellars, Pinot Noir, Willamette &#8217;22</td>
+<td>95</td>
+</tr>
+<tr>
+<td>Trisaetum, Trisae Pinot Noir, Willamette Valley &#8217;22</td>
+<td>65</td>
+</tr>
+<tr>
+<td>Evening Lands, Seven Springs Pinot Noir, Eola-Amity &#8217;22</td>
+<td>90</td>
+</tr>
+<tr>
+<td>Goldeneye, Pinot Noir, Anderson Valley &#8217;21</td>
+<td>120</td>
+</tr>
+<tr>
+<td>Ram&#8217;s Gate, Pinot Noir, Sonoma Coast &#8217;21</td>
+<td>87</td>
+</tr>
+<tr>
+<td>Oakwild Ranch, Toboni Pinot Noir, Russian River &#8217;20</td>
+<td>72</td>
+</tr>
+<tr>
+<td>Ghostwriter, Amaya Ridge Pinot &#8217;21</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Wrath, San Saba Pinot Noir, Monterey &#8217;21</td>
+<td>95</td>
+</tr>
+<tr>
+<td>Hope &amp; Grace, Doctor&#8217;s Pinot Noir, Santa Lucia &#8217;17</td>
+<td>80</td>
+</tr>
+<tr>
+<td>Seven Hills, Merlot, Columbia Valley &#8217;22</td>
+<td>55</td>
+</tr>
+<tr>
+<td>Gramercy, Cabernet Sauvignon, Columbia Valley &#8217;18</td>
+<td>95</td>
+</tr>
+<tr>
+<td>Rosati, Cabernet Sauvignon, Mendocino County &#8217;13</td>
+<td>80</td>
+</tr>
+<tr>
+<td>Venn, Cabernet Sauvignon, Napa Valley &#8217;21</td>
+<td>93</td>
+</tr>
+<tr>
+<td>Padis Vineyards, Cabernet Sauvignon, Napa Valley &#8217;13</td>
+<td>125</td>
+</tr>
+<tr>
+<td>Domaine Eden, Cabernet Sauvignon, Sta Cruz Mtns &#8217;18</td>
+<td>88</td>
+</tr>
+<tr>
+<td>Lancaster Estate, Winemakers Cuvee, Alexander Vly. &#8217;21</td>
+<td>125</td>
+</tr>
+<tr>
+<td>Two Squared by Alpha Omega, Napa Valley Red &#8217;21</td>
+<td>105</td>
+</tr>
+<tr>
+<td>Leviathan, Napa Valley Red &#8217;21</td>
+<td>95</td>
+</tr>
+<tr>
+<td>Epoch Estate, Paderwski-Catapult Red, Paso Robles &#8217;19</td>
+<td>125</td>
+</tr>
+<tr>
+<td>Mora, Valpo, Sonoma County Red &#8217;19</td>
+<td>85</td>
+</tr>
+<tr>
+<td>Èvia Wine Co., Odysseas, California Red &#8217;20</td>
+<td>59</td>
+</tr>
+<tr>
+<td>Saldo, Zinfandel, California &#8217;21</td>
+<td>70</td>
+</tr>
+<tr>
+<td>Biale, Old Kraft Zinfandel, St.Helena &#8217;21</td>
+<td>115</td>
+</tr>
+<tr>
+<td>Starlite Vineyards, Zinfandel, Alexander Valley &#8217;16</td>
+<td>95</td>
+</tr>
+<tr>
+<td>Limerick Lane, Zinfandel, Russian River &#8217;20</td>
+<td>72</td>
+</tr>
+<tr>
+<td>Baca, Home Base Zinfandel, Sonoma County &#8217;19</td>
+<td>65</td>
+</tr>
+<tr>
+<td>McGah Family, Scarlett Zinfandel, Rutherford &#8217;19</td>
+<td>83</td>
+</tr>
+<tr>
+<td>Turley, Dragon Zinfandel, Howell Mtn. &#8217;22</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Siesta en el Tahuantinsuyu Malbec, Uco Valley &#8217;18</td>
+<td>65</td>
+</tr>
+<tr>
+<td>Lioco, Carignan &#8216;Sativa&#8217;, Mendocino &#8217;19</td>
+<td>63</td>
+</tr>
+<tr>
+<td>Gramercy, Red Willow Syrah, Columbia Valley &#8217;18</td>
+<td>115</td>
+</tr>
+<tr>
+<td>Lacuna, California Syrah &#8217;19</td>
+<td>64</td>
+</tr>
+<tr>
+<td>Belharra, Los Madres Syrah, Carneros &#8217;19</td>
+<td>80</td>
+</tr>
+<tr>
+<td>Caymus-Suisun, Grand Durìf, Suisun Valley &#8217;21</td>
+<td>115</td>
+</tr>
+</tbody>
+</table>
+</div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-3-12 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap" style="width:104% !important;max-width:104% !important;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-27 fusion_builder_column_1_2 1_2 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:3.84%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:3.84%;--awb-width-medium:75%;--awb-order-medium:0;--awb-spacing-right-medium:2.56%;--awb-spacing-left-medium:2.56%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-28"><table width="100%">
+<tbody>
+<tr>
+<td width="95%"><strong>Sparkling &amp; White Half Bottles</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Jean Vesselle, Brut, Oeil de Perdrix, nv</td>
+<td>65</td>
+</tr>
+<tr>
+<td>Matanzas Creek, Sauvignon Blanc, Sonoma Co. &#8217;23</td>
+<td>32</td>
+</tr>
+<tr>
+<td>Bisci, Verdicchio di Matelica &#8217;21</td>
+<td>28</td>
+</tr>
+<tr>
+<td>St. Michael-Eppan, Pinot Grigio, Alto Adige &#8217;22</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Gueguen, Chablis &#8217;22</td>
+<td>53</td>
+</tr>
+<tr>
+<td>Kistler, Les Noisetiers Chard, Sonoma Coast &#8217;20</td>
+<td>80</td>
+</tr>
+<tr>
+<td>Rombauer, Chardonnay, Carneros &#8217;22</td>
+<td>45</td>
+</tr>
+</tbody>
+</table>
+</div></div></div><div class="fusion-layout-column fusion_builder_column fusion-builder-column-28 fusion_builder_column_1_2 1_2 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:3.84%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:3.84%;--awb-width-medium:75%;--awb-order-medium:0;--awb-spacing-right-medium:2.56%;--awb-spacing-left-medium:2.56%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-29"><table width="100%">
+<tbody>
+<tr>
+<td width="95%"><strong>Red Half Bottles</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Merry Edwards, Pinot Noir, Russian River &#8217;22</td>
+<td>55</td>
+</tr>
+<tr>
+<td>Kosta Browne, Pinot Noir, Sta. Rita Hills &#8217;20</td>
+<td>110</td>
+</tr>
+<tr>
+<td>Opus One, Napa Valley Red &#8217;19</td>
+<td>430</td>
+</tr>
+<tr>
+<td>Tablas Creek, Esprit d&#8217;Tablas, Paso Robles &#8217;21</td>
+<td>70</td>
+</tr>
+<tr>
+<td>Chante Cigale, Châteauneuf-du-Pape &#8217;21</td>
+<td>80</td>
+</tr>
+<tr>
+<td>Château Rauzan-Ségla, Ségla Margaux &#8217;16</td>
+<td>95</td>
+</tr>
+<tr>
+<td>Remelluri, Reserva Rioja &#8217;15</td>
+<td>62</td>
+</tr>
+<tr>
+<td>Felsina, Rancia, Chianti Classico &#8217;20</td>
+<td>72</td>
+</tr>
+<tr>
+<td>Mocali, Brunello di Montalcino &#8217;18</td>
+<td>73</td>
+</tr>
+<tr>
+<td>Agricola Venturini, Amarone della Valpolicella &#8217;15</td>
+<td>78</td>
+</tr>
+</tbody>
+</table>
+</div></div></div></div></div>
+</div></span></div><div class="tab-pane fade fusion-clearfix" role="tabpanel" tabindex="0" aria-labelledby="fusion-tab-dessert" id="tab-11886b3303b2dfb33a0">
+<div data-post-id="3159" class="insert-page insert-page-3159 "><div class="fusion-fullwidth fullwidth-box fusion-builder-row-3-13 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-padding-top:40px;--awb-padding-right-small:0px;--awb-padding-left-small:0px;--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-justify-content-center fusion-flex-content-wrap" style="width:104% !important;max-width:104% !important;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-29 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:1.92%;--awb-width-medium:80%;--awb-order-medium:0;--awb-spacing-right-medium:2.4%;--awb-spacing-left-medium:2.4%;--awb-width-small:80%;--awb-order-small:0;--awb-spacing-right-small:2.4%;--awb-spacing-left-small:2.4%;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-30"><p style="text-align: center; font-size: 30px; text-decoration: underline; text-underline-position: under;"><strong>Glyka</strong></p>
+</div></div></div><div class="fusion-layout-column fusion_builder_column fusion-builder-column-30 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:1.92%;--awb-width-medium:80%;--awb-order-medium:0;--awb-spacing-right-medium:2.4%;--awb-spacing-left-medium:2.4%;--awb-width-small:80%;--awb-order-small:0;--awb-spacing-right-small:2.4%;--awb-spacing-left-small:2.4%;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-31"><p style="text-align: center;"><strong>Baklava</strong><br />
+Traditional walnut &amp; honey baklava with vanilla-praline ice cream 13.50</p>
+<p style="text-align: center;"><strong>Sokolatina</strong><br />
+Flourless dark chocolate cake with sweetened whipped cream 14.75</p>
+<p style="text-align: center;"><strong>Kataifi Ekmek</strong><br />
+Shredded filo with semolina custard, creme fraiche &amp; pistachio 13.75</p>
+<p style="text-align: center;"><strong>Rizogalo</strong><br />
+Arborio rice pudding with honey roasted pear 13.50</p>
+<p style="text-align: center;"><strong>Galaktoboureko</strong><br />
+Semolina custard in filo with seasonal fruit &amp; pistachio ice cream 13.50</p>
+<p style="text-align: center;"><strong>Yiaourti Granita</strong><br />
+Yogurt sorbet with seasonal fruit granita &amp; mint syrup 13.75</p>
+<p style="text-align: center;"><strong>Ouzo Sorbet</strong><br />
+with orange &amp; pomegranate 13.00</p>
+<p style="text-align: center;"><strong>Pagoto Baklava</strong><br />
+Baklava ice cream with baklava syrup 13.50</p>
+<p style="text-align: center;"><strong>Judy’s Special Sundae</strong><br />
+Chocolate &amp; vanilla ice cream with hot fudge, whipped cream &amp; toasted hazelnuts 16.75</p>
+<p style="text-align: center;"><strong>Yiaourti me Meli</strong><br />
+Greek yogurt with spiced walnuts &amp; dates drizzled with Marshall’s honey 14.25</p>
+<p style="text-align: center;"><strong>Loukoumades<br />
+</strong>Traditional Greek doughnuts with honey, cinnamon &amp; walnuts 11.50</p>
+<p style="text-align: center;"><strong>Koulourakia</strong><br />
+Selection of Greek cookies 13.50</p>
+</div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-3-14 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-padding-top:40px;--awb-padding-right-small:0px;--awb-padding-left-small:0px;--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-justify-content-center fusion-flex-content-wrap" style="width:calc( 100% + 100px ) !important;max-width:calc( 100% + 100px ) !important;margin-left: calc(-100px / 2 );margin-right: calc(-100px / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-31 fusion_builder_column_1_2 1_2 fusion-flex-column" style="--awb-padding-right-small:0px;--awb-padding-left-small:0px;--awb-bg-size:cover;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:50px;--awb-margin-bottom-large:0px;--awb-spacing-left-large:50px;--awb-width-medium:40%;--awb-order-medium:0;--awb-spacing-right-medium:50px;--awb-spacing-left-medium:50px;--awb-width-small:75%;--awb-order-small:0;--awb-spacing-right-small:50px;--awb-spacing-left-small:50px;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-32"><p style="text-align: center;"><strong>Greek Coffee 6.50</strong><br />
+Stone-ground coffee<br />
+heated over hot sand<br />
+<strong>Sketo</strong> for no sugar<br />
+<strong>Metrio</strong> for medium sweet<br />
+<strong>Glyko</strong> for sweet<br />
+<strong>Frappé 7.50</strong><br />
+Classic Greek Iced Coffee</p>
+</div></div></div><div class="fusion-layout-column fusion_builder_column fusion-builder-column-32 fusion_builder_column_1_2 1_2 fusion-flex-column" style="--awb-padding-right-small:0px;--awb-padding-left-small:0px;--awb-bg-size:cover;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:50px;--awb-margin-bottom-large:0px;--awb-spacing-left-large:50px;--awb-width-medium:40%;--awb-order-medium:0;--awb-spacing-right-medium:50px;--awb-spacing-left-medium:50px;--awb-width-small:75%;--awb-order-small:0;--awb-spacing-right-small:50px;--awb-spacing-left-small:50px;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-33"><p style="text-align: center;"><strong>Tea Selection 7.25</strong><br />
+Strong Breakfast Blend<br />
+(Darjeeling, Ceylon &amp; Assam)<br />
+Green Mandarin Jasmine<br />
+Spearmint (caffeine-free)<br />
+Chamomile<br />
+Green Nuit À Versailles<br />
+(Bergamot, Kiwi, Yellow Peach &amp; Orange Blossom)</p>
+</div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-3-15 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-padding-top:40px;--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-justify-content-center fusion-flex-content-wrap" style="width:104% !important;max-width:104% !important;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-33 fusion_builder_column_3_4 3_4 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:75%;--awb-margin-top-large:0px;--awb-spacing-right-large:2.56%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:2.56%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-34"><p style="text-align: center; font-size: 0.7em;">Consuming raw or undercooked meats, poultry, seafood, shellfish or eggs may increase your risk of foodborne illness A 6% surcharge is added to all guest checks in support of San Francisco Employee Ordinances such as Healthy SF</p>
+</div></div></div></div></div>
+</div>
+</div></div></div></div></div></div></div>
+							</div>
+												</div>
+	</section>
+						
+					</div>  <!-- fusion-row -->
+				</main>  <!-- #main -->
+				
+				
+								
+					<div class="fusion-tb-footer fusion-footer"><div class="fusion-footer-widget-area fusion-widget-area"><div id="contact" class="fusion-container-anchor"><div class="fusion-fullwidth fullwidth-box fusion-builder-row-4 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--link_color: var(--awb-color5);--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-padding-top:30px;--awb-background-color:var(--awb-custom10);--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap" style="max-width:1248px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-34 fusion_builder_column_1_3 1_3 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:33.333333333333%;--awb-margin-top-large:0px;--awb-spacing-right-large:5.76%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:5.76%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-image-element " style="text-align:left;--awb-max-width:300px;--awb-caption-title-font-family:var(--h2_typography-font-family);--awb-caption-title-font-weight:var(--h2_typography-font-weight);--awb-caption-title-font-style:var(--h2_typography-font-style);--awb-caption-title-size:var(--h2_typography-font-size);--awb-caption-title-transform:var(--h2_typography-text-transform);--awb-caption-title-line-height:var(--h2_typography-line-height);--awb-caption-title-letter-spacing:var(--h2_typography-letter-spacing);"><span class=" fusion-imageframe imageframe-none imageframe-3 hover-type-none"><img decoding="async" width="300" height="100" title="KOKKARI LOGO_2025new_WHITE_transp" src="https://kokkari.com/wp-content/uploads/KOKKARI-LOGO_2025new_WHITE_transp.png" data-orig-src="https://kokkari.com/wp-content/uploads/KOKKARI-LOGO_2025new_WHITE_transp-300x100.png" alt class="lazyload img-responsive wp-image-3153" srcset="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%273000%27%20height%3D%271000%27%20viewBox%3D%270%200%203000%201000%27%3E%3Crect%20width%3D%273000%27%20height%3D%271000%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E" data-srcset="https://kokkari.com/wp-content/uploads/KOKKARI-LOGO_2025new_WHITE_transp-200x67.png 200w, https://kokkari.com/wp-content/uploads/KOKKARI-LOGO_2025new_WHITE_transp-400x133.png 400w, https://kokkari.com/wp-content/uploads/KOKKARI-LOGO_2025new_WHITE_transp-600x200.png 600w, https://kokkari.com/wp-content/uploads/KOKKARI-LOGO_2025new_WHITE_transp-800x267.png 800w, https://kokkari.com/wp-content/uploads/KOKKARI-LOGO_2025new_WHITE_transp-1200x400.png 1200w" data-sizes="auto" data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 800px) 100vw, 400px" /></span></div></div></div><div class="fusion-layout-column fusion_builder_column fusion-builder-column-35 fusion_builder_column_1_3 1_3 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:33.333333333333%;--awb-margin-top-large:0px;--awb-spacing-right-large:5.76%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:5.76%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"></div></div><div class="fusion-layout-column fusion_builder_column fusion-builder-column-36 fusion_builder_column_1_3 1_3 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:33.333333333333%;--awb-margin-top-large:0px;--awb-spacing-right-large:5.76%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:5.76%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"></div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-5 fusion-flex-container has-pattern-background has-mask-background fusion-parallax-none nonhundred-percent-fullwidth non-hundred-percent-height-scrolling lazyload" style="--link_hover_color: var(--awb-color1);--link_color: var(--awb-color5);--awb-background-position:right center;--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-background-color:var(--awb-custom10);--awb-background-size:200px;--awb-flex-wrap:wrap;" data-bg="https://kokkari.com/wp-content/uploads/Olive-branch1-2-100p-50o.png" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-justify-content-center fusion-flex-content-wrap" style="max-width:1248px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-37 fusion_builder_column_1_3 1_3 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:33.333333333333%;--awb-margin-top-large:0px;--awb-spacing-right-large:5.76%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:5.76%;--awb-width-medium:50%;--awb-order-medium:0;--awb-spacing-right-medium:3.84%;--awb-spacing-left-medium:3.84%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-35" style="--awb-margin-left:10px;--awb-text-font-family:&quot;AshburyLight&quot;;--awb-text-font-style:normal;--awb-text-font-weight:400;"><p style="text-align: left;" align="center"><span style="color: #fff;">KOKKARI ESTIATORIO</span></p>
+<p style="text-align: left;"><span style="color: #ffffff;">200 Jackson Street (at Front St.)</span><br />
+<span style="color: #ffffff;">San Francisco, CA 94111</span></p>
+<p style="text-align: left;"><span style="color: #ffffff;">p: <a style="color: #ffffff;" href="tel:+14159810983">415.981.0983</a></span></p>
+</div><div class="fusion-text fusion-text-36" style="--awb-margin-left:10px;--awb-text-font-family:&quot;AshburyLight&quot;;--awb-text-font-style:normal;--awb-text-font-weight:400;"><p><span style="color: #ffffff;"><strong>Lunch — </strong>Mon—Fri 11:30am to 2:30pm</span></p>
+<p><span style="color: #ffffff;"><strong>Dinner — </strong>Mon—Sun 5:00pm to 10:00pm</span></p>
+</div></div></div><div class="fusion-layout-column fusion_builder_column fusion-builder-column-38 fusion_builder_column_1_3 1_3 fusion-flex-column" style="--awb-bg-size:contain;--awb-width-large:33.333333333333%;--awb-margin-top-large:0px;--awb-spacing-right-large:5.76%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:5.76%;--awb-width-medium:50%;--awb-order-medium:0;--awb-spacing-right-medium:3.84%;--awb-spacing-left-medium:3.84%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-37" style="--awb-margin-left:10px;--awb-text-font-family:&quot;AshburyLight&quot;;--awb-text-font-style:normal;--awb-text-font-weight:400;"><p style="text-align: left;" align="center"><span style="color: #ffffff;"><a style="color: #ffffff;" href="/reservations">Reservations</a></span></p>
+<p style="text-align: left;" align="center"><span style="color: #ffffff;"><a style="color: #ffffff;" href="/private-dining/">Private Dining</a></span></p>
+<p style="text-align: left;" align="center"><span style="color: #ffffff;"><a style="color: #ffffff;" href="/menus">Menus</a></span></p>
+<p style="text-align: left;" align="center"><span style="color: #ffffff;"><a style="color: #ffffff;" href="/cookbook">Cookbook &amp; Gift Certificates</a></span></p>
+<p style="text-align: left;" align="center"><span style="color: #ffffff;"><a style="color: #ffffff;" href="/press/">Press</a></span></p>
+<p style="text-align: left;" align="center"><span style="color: #ffffff;"><a style="color: #ffffff;" href="mailto:receipts@kokkari.com">Receipt Request</a></span></p>
+</div></div></div><div class="fusion-layout-column fusion_builder_column fusion-builder-column-39 fusion_builder_column_1_3 1_3 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:33.333333333333%;--awb-margin-top-large:0px;--awb-spacing-right-large:5.76%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:5.76%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column"><div class="fusion-text fusion-text-38" style="--awb-margin-left:10px;--awb-text-font-family:&quot;AshburyLight&quot;;--awb-text-font-style:normal;--awb-text-font-weight:400;"><p style="text-align: left;" align="center"><span style="color: #ffffff;"><a style="color: #ffffff;" href="http://evvia.net/">EVVIA ESTIATORIO</a><br />
+<em>our sister restaurant</em></span></p>
+<p><span style="color: #ffffff;">420 Emerson Street</span><br />
+<span style="color: #ffffff;">Palo Alto, CA 94301</span><br />
+<span style="color: #ffffff;">p: 650.326.0983</span></p>
+</div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-6 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling fusion-custom-z-index" style="--link_color: var(--awb-color4);--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-z-index:2;--awb-padding-top:10px;--awb-padding-bottom:10px;--awb-margin-top:0px;--awb-margin-bottom:0px;--awb-background-color:var(--awb-custom10);--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap" style="max-width:1248px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-40 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-padding-top:0px;--awb-padding-bottom:0px;--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-39" style="--awb-text-color:var(--awb-color4);--awb-text-font-family:&quot;Sofia Sans Condensed&quot;;--awb-text-font-style:normal;--awb-text-font-weight:400;"><p><span style="color: #999999; font-size: .8em;">© 2015-<script>document.write(new Date().getFullYear());</script> Kokkari <span style="float: right;"> Photos by Sara Remington &amp; Michelle Min | Site by <a style="color: #999999;" href="http://www.tenayapartners.com">TenayaPartners</a> </span></span></p>
+</div></div></div></div></div>
+</div></div>
+																</div> <!-- wrapper -->
+		</div> <!-- #boxed-wrapper -->
+				<a class="fusion-one-page-text-link fusion-page-load-link" tabindex="-1" href="#" aria-hidden="true">Page load link</a>
+
+		<div class="avada-footer-scripts">
+			<script type="text/javascript">var fusionNavIsCollapsed=function(e){var t,n;window.innerWidth<=e.getAttribute("data-breakpoint")?(e.classList.add("collapse-enabled"),e.classList.remove("awb-menu_desktop"),e.classList.contains("expanded")||window.dispatchEvent(new CustomEvent("fusion-mobile-menu-collapsed",{detail:{nav:e}})),(n=e.querySelectorAll(".menu-item-has-children.expanded")).length&&n.forEach(function(e){e.querySelector(".awb-menu__open-nav-submenu_mobile").setAttribute("aria-expanded","false")})):(null!==e.querySelector(".menu-item-has-children.expanded .awb-menu__open-nav-submenu_click")&&e.querySelector(".menu-item-has-children.expanded .awb-menu__open-nav-submenu_click").click(),e.classList.remove("collapse-enabled"),e.classList.add("awb-menu_desktop"),null!==e.querySelector(".awb-menu__main-ul")&&e.querySelector(".awb-menu__main-ul").removeAttribute("style")),e.classList.add("no-wrapper-transition"),clearTimeout(t),t=setTimeout(()=>{e.classList.remove("no-wrapper-transition")},400),e.classList.remove("loading")},fusionRunNavIsCollapsed=function(){var e,t=document.querySelectorAll(".awb-menu");for(e=0;e<t.length;e++)fusionNavIsCollapsed(t[e])};function avadaGetScrollBarWidth(){var e,t,n,l=document.createElement("p");return l.style.width="100%",l.style.height="200px",(e=document.createElement("div")).style.position="absolute",e.style.top="0px",e.style.left="0px",e.style.visibility="hidden",e.style.width="200px",e.style.height="150px",e.style.overflow="hidden",e.appendChild(l),document.body.appendChild(e),t=l.offsetWidth,e.style.overflow="scroll",t==(n=l.offsetWidth)&&(n=e.clientWidth),document.body.removeChild(e),jQuery("html").hasClass("awb-scroll")&&10<t-n?10:t-n}fusionRunNavIsCollapsed(),window.addEventListener("fusion-resize-horizontal",fusionRunNavIsCollapsed);</script>
+		<script>
+			window.RS_MODULES = window.RS_MODULES || {};
+			window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+			window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+			window.RS_MODULES.defered = false;
+			window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+			window.RS_MODULES.type = 'compiled';
+		</script>
+		<link rel='stylesheet' id='rs-plugin-settings-css' href='https://kokkari.com/wp-content/plugins/revslider/sr6/assets/css/rs6.css?fsum=08f3fa5cd704' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}
+</style>
+<script type="text/javascript" id="pojo-a11y-js-extra">
+/* <![CDATA[ */
+var PojoA11yOptions = {"focusable":"","remove_link_target":"","add_role_links":"1","enable_save":"1","save_expiration":"12"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://kokkari.com/wp-content/plugins/pojo-accessibility/assets/js/app.min.js?fsum=0396c2cbb6d8" id="pojo-a11y-js"></script>
+<script type="text/javascript" src="https://kokkari.com/wp-content/uploads/fusion-scripts/552e26581093160c30c651499359fbe9.min.js?fsum=dc4afc691c73" id="fusion-scripts-js"></script>
+		<a id="pojo-a11y-skip-content" class="pojo-skip-link pojo-skip-content" tabindex="1" accesskey="s" href="#content">Skip to content</a>
+				<nav id="pojo-a11y-toolbar" class="pojo-a11y-toolbar-left pojo-a11y-" role="navigation">
+			<div class="pojo-a11y-toolbar-toggle">
+				<a class="pojo-a11y-toolbar-link pojo-a11y-toolbar-toggle-link" href="javascript:void(0);" title="Accessibility Tools" role="button">
+					<span class="pojo-sr-only sr-only">Open toolbar</span>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="currentColor" width="1em">
+						<title>Accessibility Tools</title>
+						<path d="M50 .8c5.7 0 10.4 4.7 10.4 10.4S55.7 21.6 50 21.6s-10.4-4.7-10.4-10.4S44.3.8 50 .8zM92.2 32l-21.9 2.3c-2.6.3-4.6 2.5-4.6 5.2V94c0 2.9-2.3 5.2-5.2 5.2H60c-2.7 0-4.9-2.1-5.2-4.7l-2.2-24.7c-.1-1.5-1.4-2.5-2.8-2.4-1.3.1-2.2 1.1-2.4 2.4l-2.2 24.7c-.2 2.7-2.5 4.7-5.2 4.7h-.5c-2.9 0-5.2-2.3-5.2-5.2V39.4c0-2.7-2-4.9-4.6-5.2L7.8 32c-2.6-.3-4.6-2.5-4.6-5.2v-.5c0-2.6 2.1-4.7 4.7-4.7h.5c19.3 1.8 33.2 2.8 41.7 2.8s22.4-.9 41.7-2.8c2.6-.2 4.9 1.6 5.2 4.3v1c-.1 2.6-2.1 4.8-4.8 5.1z"/>					</svg>
+				</a>
+			</div>
+			<div class="pojo-a11y-toolbar-overlay">
+				<div class="pojo-a11y-toolbar-inner">
+					<p class="pojo-a11y-toolbar-title">Accessibility Tools</p>
+					
+					<ul class="pojo-a11y-toolbar-items pojo-a11y-tools">
+																			<li class="pojo-a11y-toolbar-item">
+								<a href="#" class="pojo-a11y-toolbar-link pojo-a11y-btn-resize-font pojo-a11y-btn-resize-plus" data-action="resize-plus" data-action-group="resize" tabindex="-1" role="button">
+									<span class="pojo-a11y-toolbar-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 448 448"><title>Increase Text</title><path fill="currentColor" d="M256 200v16c0 4.25-3.75 8-8 8h-56v56c0 4.25-3.75 8-8 8h-16c-4.25 0-8-3.75-8-8v-56h-56c-4.25 0-8-3.75-8-8v-16c0-4.25 3.75-8 8-8h56v-56c0-4.25 3.75-8 8-8h16c4.25 0 8 3.75 8 8v56h56c4.25 0 8 3.75 8 8zM288 208c0-61.75-50.25-112-112-112s-112 50.25-112 112 50.25 112 112 112 112-50.25 112-112zM416 416c0 17.75-14.25 32-32 32-8.5 0-16.75-3.5-22.5-9.5l-85.75-85.5c-29.25 20.25-64.25 31-99.75 31-97.25 0-176-78.75-176-176s78.75-176 176-176 176 78.75 176 176c0 35.5-10.75 70.5-31 99.75l85.75 85.75c5.75 5.75 9.25 14 9.25 22.5z"></path></svg></span><span class="pojo-a11y-toolbar-text">Increase Text</span>								</a>
+							</li>
+							
+							<li class="pojo-a11y-toolbar-item">
+								<a href="#" class="pojo-a11y-toolbar-link pojo-a11y-btn-resize-font pojo-a11y-btn-resize-minus" data-action="resize-minus" data-action-group="resize" tabindex="-1" role="button">
+									<span class="pojo-a11y-toolbar-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 448 448"><title>Decrease Text</title><path fill="currentColor" d="M256 200v16c0 4.25-3.75 8-8 8h-144c-4.25 0-8-3.75-8-8v-16c0-4.25 3.75-8 8-8h144c4.25 0 8 3.75 8 8zM288 208c0-61.75-50.25-112-112-112s-112 50.25-112 112 50.25 112 112 112 112-50.25 112-112zM416 416c0 17.75-14.25 32-32 32-8.5 0-16.75-3.5-22.5-9.5l-85.75-85.5c-29.25 20.25-64.25 31-99.75 31-97.25 0-176-78.75-176-176s78.75-176 176-176 176 78.75 176 176c0 35.5-10.75 70.5-31 99.75l85.75 85.75c5.75 5.75 9.25 14 9.25 22.5z"></path></svg></span><span class="pojo-a11y-toolbar-text">Decrease Text</span>								</a>
+							</li>
+						
+													<li class="pojo-a11y-toolbar-item">
+								<a href="#" class="pojo-a11y-toolbar-link pojo-a11y-btn-background-group pojo-a11y-btn-grayscale" data-action="grayscale" data-action-group="schema" tabindex="-1" role="button">
+									<span class="pojo-a11y-toolbar-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 448 448"><title>Grayscale</title><path fill="currentColor" d="M15.75 384h-15.75v-352h15.75v352zM31.5 383.75h-8v-351.75h8v351.75zM55 383.75h-7.75v-351.75h7.75v351.75zM94.25 383.75h-7.75v-351.75h7.75v351.75zM133.5 383.75h-15.5v-351.75h15.5v351.75zM165 383.75h-7.75v-351.75h7.75v351.75zM180.75 383.75h-7.75v-351.75h7.75v351.75zM196.5 383.75h-7.75v-351.75h7.75v351.75zM235.75 383.75h-15.75v-351.75h15.75v351.75zM275 383.75h-15.75v-351.75h15.75v351.75zM306.5 383.75h-15.75v-351.75h15.75v351.75zM338 383.75h-15.75v-351.75h15.75v351.75zM361.5 383.75h-15.75v-351.75h15.75v351.75zM408.75 383.75h-23.5v-351.75h23.5v351.75zM424.5 383.75h-8v-351.75h8v351.75zM448 384h-15.75v-352h15.75v352z"></path></svg></span><span class="pojo-a11y-toolbar-text">Grayscale</span>								</a>
+							</li>
+						
+													<li class="pojo-a11y-toolbar-item">
+								<a href="#" class="pojo-a11y-toolbar-link pojo-a11y-btn-background-group pojo-a11y-btn-high-contrast" data-action="high-contrast" data-action-group="schema" tabindex="-1" role="button">
+									<span class="pojo-a11y-toolbar-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 448 448"><title>High Contrast</title><path fill="currentColor" d="M192 360v-272c-75 0-136 61-136 136s61 136 136 136zM384 224c0 106-86 192-192 192s-192-86-192-192 86-192 192-192 192 86 192 192z"></path></svg></span><span class="pojo-a11y-toolbar-text">High Contrast</span>								</a>
+							</li>
+						
+													<li class="pojo-a11y-toolbar-item">
+								<a href="#" class="pojo-a11y-toolbar-link pojo-a11y-btn-background-group pojo-a11y-btn-negative-contrast" data-action="negative-contrast" data-action-group="schema" tabindex="-1" role="button">
+
+									<span class="pojo-a11y-toolbar-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 448 448"><title>Negative Contrast</title><path fill="currentColor" d="M416 240c-23.75-36.75-56.25-68.25-95.25-88.25 10 17 15.25 36.5 15.25 56.25 0 61.75-50.25 112-112 112s-112-50.25-112-112c0-19.75 5.25-39.25 15.25-56.25-39 20-71.5 51.5-95.25 88.25 42.75 66 111.75 112 192 112s149.25-46 192-112zM236 144c0-6.5-5.5-12-12-12-41.75 0-76 34.25-76 76 0 6.5 5.5 12 12 12s12-5.5 12-12c0-28.5 23.5-52 52-52 6.5 0 12-5.5 12-12zM448 240c0 6.25-2 12-5 17.25-46 75.75-130.25 126.75-219 126.75s-173-51.25-219-126.75c-3-5.25-5-11-5-17.25s2-12 5-17.25c46-75.5 130.25-126.75 219-126.75s173 51.25 219 126.75c3 5.25 5 11 5 17.25z"></path></svg></span><span class="pojo-a11y-toolbar-text">Negative Contrast</span>								</a>
+							</li>
+						
+													<li class="pojo-a11y-toolbar-item">
+								<a href="#" class="pojo-a11y-toolbar-link pojo-a11y-btn-background-group pojo-a11y-btn-light-background" data-action="light-background" data-action-group="schema" tabindex="-1" role="button">
+									<span class="pojo-a11y-toolbar-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 448 448"><title>Light Background</title><path fill="currentColor" d="M184 144c0 4.25-3.75 8-8 8s-8-3.75-8-8c0-17.25-26.75-24-40-24-4.25 0-8-3.75-8-8s3.75-8 8-8c23.25 0 56 12.25 56 40zM224 144c0-50-50.75-80-96-80s-96 30-96 80c0 16 6.5 32.75 17 45 4.75 5.5 10.25 10.75 15.25 16.5 17.75 21.25 32.75 46.25 35.25 74.5h57c2.5-28.25 17.5-53.25 35.25-74.5 5-5.75 10.5-11 15.25-16.5 10.5-12.25 17-29 17-45zM256 144c0 25.75-8.5 48-25.75 67s-40 45.75-42 72.5c7.25 4.25 11.75 12.25 11.75 20.5 0 6-2.25 11.75-6.25 16 4 4.25 6.25 10 6.25 16 0 8.25-4.25 15.75-11.25 20.25 2 3.5 3.25 7.75 3.25 11.75 0 16.25-12.75 24-27.25 24-6.5 14.5-21 24-36.75 24s-30.25-9.5-36.75-24c-14.5 0-27.25-7.75-27.25-24 0-4 1.25-8.25 3.25-11.75-7-4.5-11.25-12-11.25-20.25 0-6 2.25-11.75 6.25-16-4-4.25-6.25-10-6.25-16 0-8.25 4.5-16.25 11.75-20.5-2-26.75-24.75-53.5-42-72.5s-25.75-41.25-25.75-67c0-68 64.75-112 128-112s128 44 128 112z"></path></svg></span><span class="pojo-a11y-toolbar-text">Light Background</span>								</a>
+							</li>
+						
+													<li class="pojo-a11y-toolbar-item">
+								<a href="#" class="pojo-a11y-toolbar-link pojo-a11y-btn-links-underline" data-action="links-underline" data-action-group="toggle" tabindex="-1" role="button">
+									<span class="pojo-a11y-toolbar-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 448 448"><title>Links Underline</title><path fill="currentColor" d="M364 304c0-6.5-2.5-12.5-7-17l-52-52c-4.5-4.5-10.75-7-17-7-7.25 0-13 2.75-18 8 8.25 8.25 18 15.25 18 28 0 13.25-10.75 24-24 24-12.75 0-19.75-9.75-28-18-5.25 5-8.25 10.75-8.25 18.25 0 6.25 2.5 12.5 7 17l51.5 51.75c4.5 4.5 10.75 6.75 17 6.75s12.5-2.25 17-6.5l36.75-36.5c4.5-4.5 7-10.5 7-16.75zM188.25 127.75c0-6.25-2.5-12.5-7-17l-51.5-51.75c-4.5-4.5-10.75-7-17-7s-12.5 2.5-17 6.75l-36.75 36.5c-4.5 4.5-7 10.5-7 16.75 0 6.5 2.5 12.5 7 17l52 52c4.5 4.5 10.75 6.75 17 6.75 7.25 0 13-2.5 18-7.75-8.25-8.25-18-15.25-18-28 0-13.25 10.75-24 24-24 12.75 0 19.75 9.75 28 18 5.25-5 8.25-10.75 8.25-18.25zM412 304c0 19-7.75 37.5-21.25 50.75l-36.75 36.5c-13.5 13.5-31.75 20.75-50.75 20.75-19.25 0-37.5-7.5-51-21.25l-51.5-51.75c-13.5-13.5-20.75-31.75-20.75-50.75 0-19.75 8-38.5 22-52.25l-22-22c-13.75 14-32.25 22-52 22-19 0-37.5-7.5-51-21l-52-52c-13.75-13.75-21-31.75-21-51 0-19 7.75-37.5 21.25-50.75l36.75-36.5c13.5-13.5 31.75-20.75 50.75-20.75 19.25 0 37.5 7.5 51 21.25l51.5 51.75c13.5 13.5 20.75 31.75 20.75 50.75 0 19.75-8 38.5-22 52.25l22 22c13.75-14 32.25-22 52-22 19 0 37.5 7.5 51 21l52 52c13.75 13.75 21 31.75 21 51z"></path></svg></span><span class="pojo-a11y-toolbar-text">Links Underline</span>								</a>
+							</li>
+						
+													<li class="pojo-a11y-toolbar-item">
+								<a href="#" class="pojo-a11y-toolbar-link pojo-a11y-btn-readable-font" data-action="readable-font" data-action-group="toggle" tabindex="-1" role="button">
+									<span class="pojo-a11y-toolbar-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 448 448"><title>Readable Font</title><path fill="currentColor" d="M181.25 139.75l-42.5 112.5c24.75 0.25 49.5 1 74.25 1 4.75 0 9.5-0.25 14.25-0.5-13-38-28.25-76.75-46-113zM0 416l0.5-19.75c23.5-7.25 49-2.25 59.5-29.25l59.25-154 70-181h32c1 1.75 2 3.5 2.75 5.25l51.25 120c18.75 44.25 36 89 55 133 11.25 26 20 52.75 32.5 78.25 1.75 4 5.25 11.5 8.75 14.25 8.25 6.5 31.25 8 43 12.5 0.75 4.75 1.5 9.5 1.5 14.25 0 2.25-0.25 4.25-0.25 6.5-31.75 0-63.5-4-95.25-4-32.75 0-65.5 2.75-98.25 3.75 0-6.5 0.25-13 1-19.5l32.75-7c6.75-1.5 20-3.25 20-12.5 0-9-32.25-83.25-36.25-93.5l-112.5-0.5c-6.5 14.5-31.75 80-31.75 89.5 0 19.25 36.75 20 51 22 0.25 4.75 0.25 9.5 0.25 14.5 0 2.25-0.25 4.5-0.5 6.75-29 0-58.25-5-87.25-5-3.5 0-8.5 1.5-12 2-15.75 2.75-31.25 3.5-47 3.5z"></path></svg></span><span class="pojo-a11y-toolbar-text">Readable Font</span>								</a>
+							</li>
+																		<li class="pojo-a11y-toolbar-item">
+							<a href="#" class="pojo-a11y-toolbar-link pojo-a11y-btn-reset" data-action="reset" tabindex="-1" role="button">
+								<span class="pojo-a11y-toolbar-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 448 448"><title>Reset</title><path fill="currentColor" d="M384 224c0 105.75-86.25 192-192 192-57.25 0-111.25-25.25-147.75-69.25-2.5-3.25-2.25-8 0.5-10.75l34.25-34.5c1.75-1.5 4-2.25 6.25-2.25 2.25 0.25 4.5 1.25 5.75 3 24.5 31.75 61.25 49.75 101 49.75 70.5 0 128-57.5 128-128s-57.5-128-128-128c-32.75 0-63.75 12.5-87 34.25l34.25 34.5c4.75 4.5 6 11.5 3.5 17.25-2.5 6-8.25 10-14.75 10h-112c-8.75 0-16-7.25-16-16v-112c0-6.5 4-12.25 10-14.75 5.75-2.5 12.75-1.25 17.25 3.5l32.5 32.25c35.25-33.25 83-53 132.25-53 105.75 0 192 86.25 192 192z"></path></svg></span>
+								<span class="pojo-a11y-toolbar-text">Reset</span>
+							</a>
+						</li>
+					</ul>
+									</div>
+			</div>
+		</nav>
+				</div>
+
+			<section class="to-top-container to-top-right" aria-labelledby="awb-to-top-label">
+		<a href="#" id="toTop" class="fusion-top-top-link">
+			<span id="awb-to-top-label" class="screen-reader-text">Go to Top</span>
+
+					</a>
+	</section>
+		</body>
+</html>

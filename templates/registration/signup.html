@@ -1,0 +1,21 @@
+{% extends 'base_generic.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-4 mb-4">
+<form method='POST'>
+    {% csrf_token %}
+
+    {{ form|crispy }}
+    <br>
+    <!--<input value='Signup'>-->
+    <button type='submit'>الاشتراك بالموقع</button>
+</form>
+<br>
+<br>
+<a href="{% url 'accounts:login' %}">بالفعل لدي حساب</a>
+</div>
+</div>
+</div>
+{% endblock content %}
